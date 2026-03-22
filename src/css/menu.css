@@ -1,0 +1,175 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+/* Category */
+.category {
+  animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+}
+
+.category:nth-child(2) { animation-delay: 100ms; }
+
+.category__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.category__title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  letter-spacing: var(--letter-spacing-tight);
+  line-height: var(--line-height-tight);
+}
+
+.category__divider {
+  flex: 1;
+  height: var(--border-width);
+  background: linear-gradient(to right, var(--color-border), transparent);
+}
+
+/* Grid */
+.pizza-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
+  gap: var(--space-6);
+}
+
+/* Card */
+.pizza-card {
+  background-color: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  box-shadow: var(--shadow-card);
+  transition:
+    transform var(--duration-base) var(--ease-in-out),
+    box-shadow var(--duration-base) var(--ease-in-out),
+    border-color var(--duration-base) var(--ease-in-out);
+  cursor: default;
+}
+
+.pizza-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: var(--color-accent);
+}
+
+.pizza-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-4);
+}
+
+.pizza-card__name {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  line-height: var(--line-height-tight);
+}
+
+.pizza-card__price {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  white-space: nowrap;
+  background-color: var(--color-accent-light);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--border-radius-full);
+  font-family: var(--font-family-body);
+}
+
+.pizza-card__ingredients {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Special card for Luigi pizza */
+.pizza-card--signature {
+  background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-surface) 60%);
+  border-color: var(--color-gold);
+}
+
+.pizza-card--signature .pizza-card__name {
+  color: var(--color-gold);
+}
+
+.pizza-card--signature .pizza-card__price {
+  color: var(--color-gold);
+  background-color: var(--color-gold-light);
+}
+
+/* Notes section */
+.menu-notes {
+  margin-top: var(--space-16);
+  background-color: var(--color-surface-alt);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-8);
+  animation: fadeInUp var(--duration-slow) var(--ease-out) 200ms both;
+}
+
+.menu-notes__title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-4);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  font-size: var(--font-size-xs);
+}
+
+.menu-notes__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.menu-notes__item {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  padding-left: var(--space-4);
+  position: relative;
+  line-height: var(--line-height-relaxed);
+}
+
+.menu-notes__item::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-weight: var(--font-weight-bold);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .pizza-grid {
+    grid-template-columns: 1fr;
+  }
+  .category__title {
+    font-size: var(--font-size-xl);
+  }
+}
