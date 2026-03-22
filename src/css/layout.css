@@ -4,6 +4,7 @@
   flex-direction: column;
 }
 
+/* === HEADER === */
 .header {
   background-color: var(--color-surface);
   border-bottom: var(--border-width) solid var(--color-border);
@@ -32,23 +33,6 @@
   font-style: italic;
 }
 
-.main {
-  flex: 1;
-  width: 100%;
-  max-width: var(--container-max);
-  margin: 0 auto;
-  padding: var(--space-16) var(--space-6);
-}
-
-.footer {
-  background-color: var(--color-text-primary);
-  color: var(--color-text-on-accent);
-  text-align: center;
-  padding: var(--space-8) var(--space-6);
-  font-size: var(--font-size-sm);
-  opacity: 0.9;
-}
-
 @keyframes logoEntrance {
   from {
     opacity: 0;
@@ -60,10 +44,31 @@
   }
 }
 
+/* === MAIN === */
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-16) var(--space-6);
+}
+
+/* === FOOTER === */
+.footer {
+  background-color: var(--color-text-primary);
+  color: var(--color-text-on-accent);
+  text-align: center;
+  padding: var(--space-8) var(--space-6);
+  font-size: var(--font-size-sm);
+  opacity: 0.9;
+}
+
+/* === RESPONSIVE === */
 @media (max-width: 640px) {
   .header__logo {
     width: var(--logo-size-md);
   }
+
   .main {
     padding: var(--space-8) var(--space-4);
   }

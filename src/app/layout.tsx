@@ -1,16 +1,16 @@
-import type { Metadata } from 'next'
-import '../css/globals.css'
-import '../css/layout.css'
+import type { Metadata } from "next";
+import "../css/globals.css";
+import "../css/layout.css";
 
 export const metadata: Metadata = {
   title: "La Pizz' de Luigi",
-  description: 'Carte des pizzas – La Pizz\' de Luigi, Le Beausset',
-}
+  description: "Carte des pizzas – La Pizz' de Luigi, Le Beausset",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="fr">
@@ -24,16 +24,14 @@ export default function RootLayout({
               width={160}
               height={204}
             />
-            <p className="header__tagline">Le Beausset – Var</p>
           </header>
-          <main className="main">
-            {children}
-          </main>
+          <main className="main">{children}</main>
           <footer className="footer">
-            La pizz' de Luigi – Carrefour Market – Rond-point Georges Pompidou – 83330 LE BEAUSSET
+            La pizz' de Luigi – Carrefour Market – Rond-point Georges Pompidou –
+            83330 LE BEAUSSET
           </footer>
         </div>
       </body>
     </html>
-  )
+  );
 }
