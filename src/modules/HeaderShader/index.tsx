@@ -116,8 +116,8 @@ export default function HeaderShader() {
 
     const render = () => {
       const elapsed  = (performance.now() - startTime) / 1000
-      // Orbit speed: 0.3 rad/s = ~1 full turn per 21s
-      const rotation = elapsed * 0.3
+      // Base orbit: 0.12 rad/s = ~1 full turn per 52s — slow, elegant
+      const rotation = elapsed * 0.12
 
       const w = canvas.width
       const h = canvas.height

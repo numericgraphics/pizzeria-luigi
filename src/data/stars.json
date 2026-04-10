@@ -5,8 +5,8 @@
     "size": 19.3,
     "depth": 0.006,
     "selfAngle": 1.402,
-    "spinSpeed": -0.945,
-    "orbitSpeed": 4.203
+    "spinSpeed": -2.879,
+    "orbitSpeed": 0.732
   },
   {
     "x": 461.07,
@@ -14,8 +14,8 @@
     "size": 21.1,
     "depth": 0.02,
     "selfAngle": 0.187,
-    "spinSpeed": 1.126,
-    "orbitSpeed": 2.643
+    "spinSpeed": 5.424,
+    "orbitSpeed": 1.275
   },
   {
     "x": 483.81,
@@ -23,8 +23,8 @@
     "size": 24.6,
     "depth": 0.13,
     "selfAngle": 4.404,
-    "spinSpeed": 0.865,
-    "orbitSpeed": 0.828
+    "spinSpeed": -0.502,
+    "orbitSpeed": 1.004
   },
   {
     "x": 483.49,
@@ -32,8 +32,8 @@
     "size": 16.1,
     "depth": 0.187,
     "selfAngle": 5.061,
-    "spinSpeed": -0.815,
-    "orbitSpeed": 0.405
+    "spinSpeed": 0.601,
+    "orbitSpeed": 1.346
   },
   {
     "x": 488.61,
@@ -41,8 +41,8 @@
     "size": 20.0,
     "depth": 0.221,
     "selfAngle": 0.582,
-    "spinSpeed": 1.296,
-    "orbitSpeed": 1.702
+    "spinSpeed": -2.543,
+    "orbitSpeed": 1.337
   },
   {
     "x": 434.27,
@@ -50,8 +50,8 @@
     "size": 16.5,
     "depth": 0.061,
     "selfAngle": 2.885,
-    "spinSpeed": -1.213,
-    "orbitSpeed": 2.739
+    "spinSpeed": -0.199,
+    "orbitSpeed": 1.093
   },
   {
     "x": 421.76,
@@ -59,8 +59,8 @@
     "size": 26.0,
     "depth": 0.127,
     "selfAngle": 3.884,
-    "spinSpeed": -0.978,
-    "orbitSpeed": 0.469
+    "spinSpeed": 3.394,
+    "orbitSpeed": 1.155
   },
   {
     "x": 378.21,
@@ -68,8 +68,8 @@
     "size": 18.7,
     "depth": 0.011,
     "selfAngle": 1.817,
-    "spinSpeed": -1.135,
-    "orbitSpeed": 2.366
+    "spinSpeed": 2.012,
+    "orbitSpeed": 0.724
   },
   {
     "x": 349.83,
@@ -77,8 +77,8 @@
     "size": 21.4,
     "depth": 0.088,
     "selfAngle": 5.238,
-    "spinSpeed": 0.973,
-    "orbitSpeed": 1.08
+    "spinSpeed": -0.74,
+    "orbitSpeed": 0.963
   },
   {
     "x": 358.15,
@@ -86,8 +86,8 @@
     "size": 27.2,
     "depth": 0.062,
     "selfAngle": 4.07,
-    "spinSpeed": -1.145,
-    "orbitSpeed": 1.149
+    "spinSpeed": 2.599,
+    "orbitSpeed": 0.721
   },
   {
     "x": 331.87,
@@ -95,8 +95,8 @@
     "size": 19.2,
     "depth": 0.107,
     "selfAngle": 5.811,
-    "spinSpeed": 1.02,
-    "orbitSpeed": 2.243
+    "spinSpeed": 0.302,
+    "orbitSpeed": 0.66
   },
   {
     "x": 273.04,
@@ -104,8 +104,8 @@
     "size": 18.7,
     "depth": 0.179,
     "selfAngle": 0.202,
-    "spinSpeed": -0.901,
-    "orbitSpeed": 0.852
+    "spinSpeed": 1.079,
+    "orbitSpeed": 0.698
   },
   {
     "x": 281.0,
@@ -113,8 +113,8 @@
     "size": 22.8,
     "depth": 0.211,
     "selfAngle": 4.509,
-    "spinSpeed": -0.931,
-    "orbitSpeed": 1.234
+    "spinSpeed": -0.261,
+    "orbitSpeed": 0.873
   },
   {
     "x": 246.01,
@@ -122,8 +122,8 @@
     "size": 21.5,
     "depth": 0.211,
     "selfAngle": 1.663,
-    "spinSpeed": -1.075,
-    "orbitSpeed": 1.232
+    "spinSpeed": -0.77,
+    "orbitSpeed": 0.892
   },
   {
     "x": 237.04,
@@ -131,8 +131,8 @@
     "size": 21.1,
     "depth": 0.172,
     "selfAngle": 3.665,
-    "spinSpeed": -0.866,
-    "orbitSpeed": 1.077
+    "spinSpeed": -0.128,
+    "orbitSpeed": 0.909
   },
   {
     "x": 241.47,
@@ -140,8 +140,8 @@
     "size": 17.1,
     "depth": 0.118,
     "selfAngle": 0.296,
-    "spinSpeed": -0.995,
-    "orbitSpeed": 2.72
+    "spinSpeed": 0.28,
+    "orbitSpeed": 0.602
   },
   {
     "x": 232.47,
@@ -149,8 +149,8 @@
     "size": 23.2,
     "depth": 0.157,
     "selfAngle": 2.416,
-    "spinSpeed": 0.912,
-    "orbitSpeed": 1.119
+    "spinSpeed": 1.186,
+    "orbitSpeed": 1.057
   },
   {
     "x": 231.12,
@@ -158,8 +158,8 @@
     "size": 16.1,
     "depth": 0.199,
     "selfAngle": 4.526,
-    "spinSpeed": -1.12,
-    "orbitSpeed": 0.324
+    "spinSpeed": -0.204,
+    "orbitSpeed": 0.745
   },
   {
     "x": 260.46,
@@ -167,8 +167,8 @@
     "size": 17.9,
     "depth": 0.068,
     "selfAngle": 0.02,
-    "spinSpeed": -1.243,
-    "orbitSpeed": 1.844
+    "spinSpeed": 0.715,
+    "orbitSpeed": 0.877
   },
   {
     "x": 270.59,
@@ -176,8 +176,8 @@
     "size": 17.3,
     "depth": 0.117,
     "selfAngle": 3.927,
-    "spinSpeed": -1.06,
-    "orbitSpeed": 2.682
+    "spinSpeed": -4.522,
+    "orbitSpeed": 0.735
   },
   {
     "x": 286.92,
@@ -185,8 +185,8 @@
     "size": 25.3,
     "depth": 0.124,
     "selfAngle": 3.331,
-    "spinSpeed": 1.161,
-    "orbitSpeed": 0.385
+    "spinSpeed": 2.949,
+    "orbitSpeed": 0.9
   },
   {
     "x": 310.15,
@@ -194,8 +194,8 @@
     "size": 20.4,
     "depth": 0.026,
     "selfAngle": 6.188,
-    "spinSpeed": 0.98,
-    "orbitSpeed": 2.01
+    "spinSpeed": 6.884,
+    "orbitSpeed": 0.926
   },
   {
     "x": 305.59,
@@ -203,8 +203,8 @@
     "size": 16.9,
     "depth": 0.131,
     "selfAngle": 4.596,
-    "spinSpeed": -0.896,
-    "orbitSpeed": 2.266
+    "spinSpeed": 0.763,
+    "orbitSpeed": 1.307
   },
   {
     "x": 348.35,
@@ -212,8 +212,8 @@
     "size": 23.9,
     "depth": 0.029,
     "selfAngle": 5.946,
-    "spinSpeed": 0.884,
-    "orbitSpeed": 1.057
+    "spinSpeed": -0.893,
+    "orbitSpeed": 1.349
   },
   {
     "x": 384.91,
@@ -221,8 +221,8 @@
     "size": 18.5,
     "depth": 0.098,
     "selfAngle": 3.387,
-    "spinSpeed": 1.286,
-    "orbitSpeed": 2.374
+    "spinSpeed": -2.621,
+    "orbitSpeed": 1.244
   },
   {
     "x": 388.05,
@@ -230,8 +230,8 @@
     "size": 20.5,
     "depth": 0.155,
     "selfAngle": 5.65,
-    "spinSpeed": 0.863,
-    "orbitSpeed": 0.945
+    "spinSpeed": -0.703,
+    "orbitSpeed": 0.642
   },
   {
     "x": 399.19,
@@ -239,8 +239,8 @@
     "size": 23.1,
     "depth": 0.078,
     "selfAngle": 1.445,
-    "spinSpeed": -1.083,
-    "orbitSpeed": 2.726
+    "spinSpeed": 1.109,
+    "orbitSpeed": 0.799
   },
   {
     "x": 428.4,
@@ -248,8 +248,8 @@
     "size": 16.8,
     "depth": 0.014,
     "selfAngle": 0.197,
-    "spinSpeed": -1.226,
-    "orbitSpeed": 0.296
+    "spinSpeed": -2.614,
+    "orbitSpeed": 1.387
   },
   {
     "x": 452.08,
@@ -257,8 +257,8 @@
     "size": 18.6,
     "depth": 0.154,
     "selfAngle": 0.831,
-    "spinSpeed": 1.048,
-    "orbitSpeed": 3.775
+    "spinSpeed": -3.349,
+    "orbitSpeed": 0.712
   },
   {
     "x": 465.61,
@@ -266,8 +266,8 @@
     "size": 17.1,
     "depth": 0.094,
     "selfAngle": 4.138,
-    "spinSpeed": -0.912,
-    "orbitSpeed": 0.44
+    "spinSpeed": 1.087,
+    "orbitSpeed": 0.623
   },
   {
     "x": 494.51,
@@ -275,8 +275,8 @@
     "size": 24.1,
     "depth": 0.168,
     "selfAngle": 6.181,
-    "spinSpeed": -1.051,
-    "orbitSpeed": 4.108
+    "spinSpeed": -2.524,
+    "orbitSpeed": 1.305
   },
   {
     "x": 509.29,
@@ -284,8 +284,8 @@
     "size": 17.3,
     "depth": 0.185,
     "selfAngle": 1.203,
-    "spinSpeed": -1.013,
-    "orbitSpeed": 1.858
+    "spinSpeed": 0.693,
+    "orbitSpeed": 0.846
   },
   {
     "x": 555.59,
@@ -293,8 +293,8 @@
     "size": 41.7,
     "depth": 0.366,
     "selfAngle": 0.473,
-    "spinSpeed": -1.094,
-    "orbitSpeed": 0.847
+    "spinSpeed": -0.315,
+    "orbitSpeed": 0.906
   },
   {
     "x": 567.88,
@@ -302,8 +302,8 @@
     "size": 43.4,
     "depth": 0.459,
     "selfAngle": 5.818,
-    "spinSpeed": -1.014,
-    "orbitSpeed": 0.955
+    "spinSpeed": -3.248,
+    "orbitSpeed": 1.075
   },
   {
     "x": 532.73,
@@ -311,8 +311,8 @@
     "size": 33.2,
     "depth": 0.303,
     "selfAngle": 0.368,
-    "spinSpeed": -0.999,
-    "orbitSpeed": 0.427
+    "spinSpeed": 1.171,
+    "orbitSpeed": 0.806
   },
   {
     "x": 567.45,
@@ -320,8 +320,8 @@
     "size": 40.1,
     "depth": 0.482,
     "selfAngle": 1.791,
-    "spinSpeed": 1.127,
-    "orbitSpeed": 0.97
+    "spinSpeed": 0.128,
+    "orbitSpeed": 0.707
   },
   {
     "x": 557.47,
@@ -329,8 +329,8 @@
     "size": 36.4,
     "depth": 0.492,
     "selfAngle": 3.405,
-    "spinSpeed": -0.966,
-    "orbitSpeed": 0.961
+    "spinSpeed": 1.922,
+    "orbitSpeed": 1.113
   },
   {
     "x": 498.63,
@@ -338,8 +338,8 @@
     "size": 41.3,
     "depth": 0.376,
     "selfAngle": 0.989,
-    "spinSpeed": 0.874,
-    "orbitSpeed": 0.311
+    "spinSpeed": -0.262,
+    "orbitSpeed": 1.124
   },
   {
     "x": 485.09,
@@ -347,8 +347,8 @@
     "size": 41.5,
     "depth": 0.267,
     "selfAngle": 2.536,
-    "spinSpeed": 0.909,
-    "orbitSpeed": 0.933
+    "spinSpeed": 2.856,
+    "orbitSpeed": 0.917
   },
   {
     "x": 467.8,
@@ -356,8 +356,8 @@
     "size": 37.8,
     "depth": 0.27,
     "selfAngle": 3.55,
-    "spinSpeed": 0.974,
-    "orbitSpeed": 0.347
+    "spinSpeed": 0.997,
+    "orbitSpeed": 0.747
   },
   {
     "x": 453.61,
@@ -365,8 +365,8 @@
     "size": 30.3,
     "depth": 0.429,
     "selfAngle": 2.486,
-    "spinSpeed": -0.822,
-    "orbitSpeed": 0.778
+    "spinSpeed": 1.022,
+    "orbitSpeed": 1.083
   },
   {
     "x": 363.83,
@@ -374,8 +374,8 @@
     "size": 26.2,
     "depth": 0.484,
     "selfAngle": 3.901,
-    "spinSpeed": 0.961,
-    "orbitSpeed": 2.254
+    "spinSpeed": 0.239,
+    "orbitSpeed": 1.233
   },
   {
     "x": 387.33,
@@ -383,8 +383,8 @@
     "size": 42.8,
     "depth": 0.316,
     "selfAngle": 5.532,
-    "spinSpeed": 1.251,
-    "orbitSpeed": 2.695
+    "spinSpeed": 1.098,
+    "orbitSpeed": 0.918
   },
   {
     "x": 362.72,
@@ -392,8 +392,8 @@
     "size": 38.7,
     "depth": 0.458,
     "selfAngle": 3.841,
-    "spinSpeed": 0.845,
-    "orbitSpeed": 3.106
+    "spinSpeed": 2.333,
+    "orbitSpeed": 0.802
   },
   {
     "x": 294.32,
@@ -401,8 +401,8 @@
     "size": 27.9,
     "depth": 0.483,
     "selfAngle": 5.515,
-    "spinSpeed": -1.201,
-    "orbitSpeed": 0.416
+    "spinSpeed": -0.318,
+    "orbitSpeed": 0.796
   },
   {
     "x": 306.5,
@@ -410,8 +410,8 @@
     "size": 30.9,
     "depth": 0.388,
     "selfAngle": 3.798,
-    "spinSpeed": 1.06,
-    "orbitSpeed": 3.661
+    "spinSpeed": 2.633,
+    "orbitSpeed": 1.254
   },
   {
     "x": 255.37,
@@ -419,8 +419,8 @@
     "size": 34.8,
     "depth": 0.316,
     "selfAngle": 5.686,
-    "spinSpeed": -1.11,
-    "orbitSpeed": 2.677
+    "spinSpeed": -0.278,
+    "orbitSpeed": 1.036
   },
   {
     "x": 245.09,
@@ -428,8 +428,8 @@
     "size": 26.1,
     "depth": 0.319,
     "selfAngle": 4.843,
-    "spinSpeed": 1.107,
-    "orbitSpeed": 4.14
+    "spinSpeed": 0.99,
+    "orbitSpeed": 1.374
   },
   {
     "x": 203.35,
@@ -437,8 +437,8 @@
     "size": 36.1,
     "depth": 0.426,
     "selfAngle": 0.703,
-    "spinSpeed": -1.067,
-    "orbitSpeed": 1.277
+    "spinSpeed": -3.461,
+    "orbitSpeed": 0.651
   },
   {
     "x": 180.33,
@@ -446,8 +446,8 @@
     "size": 28.7,
     "depth": 0.396,
     "selfAngle": 0.8,
-    "spinSpeed": -0.93,
-    "orbitSpeed": 1.259
+    "spinSpeed": 2.514,
+    "orbitSpeed": 0.652
   },
   {
     "x": 146.06,
@@ -455,8 +455,8 @@
     "size": 26.7,
     "depth": 0.493,
     "selfAngle": 2.247,
-    "spinSpeed": 1.163,
-    "orbitSpeed": 0.415
+    "spinSpeed": -3.173,
+    "orbitSpeed": 1.121
   },
   {
     "x": 175.19,
@@ -464,8 +464,8 @@
     "size": 41.7,
     "depth": 0.39,
     "selfAngle": 6.116,
-    "spinSpeed": 1.3,
-    "orbitSpeed": 2.109
+    "spinSpeed": -6.04,
+    "orbitSpeed": 1.004
   },
   {
     "x": 197.42,
@@ -473,8 +473,8 @@
     "size": 40.4,
     "depth": 0.291,
     "selfAngle": 1.112,
-    "spinSpeed": -1.259,
-    "orbitSpeed": 0.228
+    "spinSpeed": 1.113,
+    "orbitSpeed": 0.977
   },
   {
     "x": 191.17,
@@ -482,8 +482,8 @@
     "size": 42.8,
     "depth": 0.333,
     "selfAngle": 5.038,
-    "spinSpeed": -1.298,
-    "orbitSpeed": 0.861
+    "spinSpeed": 0.23,
+    "orbitSpeed": 0.78
   },
   {
     "x": 215.16,
@@ -491,8 +491,8 @@
     "size": 41.7,
     "depth": 0.277,
     "selfAngle": 5.392,
-    "spinSpeed": 1.025,
-    "orbitSpeed": 0.209
+    "spinSpeed": -0.783,
+    "orbitSpeed": 0.82
   },
   {
     "x": 220.32,
@@ -500,8 +500,8 @@
     "size": 40.8,
     "depth": 0.337,
     "selfAngle": 5.472,
-    "spinSpeed": -0.938,
-    "orbitSpeed": 0.498
+    "spinSpeed": -0.77,
+    "orbitSpeed": 0.965
   },
   {
     "x": 208.39,
@@ -509,8 +509,8 @@
     "size": 41.6,
     "depth": 0.332,
     "selfAngle": 6.072,
-    "spinSpeed": -1.008,
-    "orbitSpeed": 4.143
+    "spinSpeed": 5.963,
+    "orbitSpeed": 0.782
   },
   {
     "x": 223.22,
@@ -518,8 +518,8 @@
     "size": 41.2,
     "depth": 0.42,
     "selfAngle": 2.08,
-    "spinSpeed": -1.005,
-    "orbitSpeed": 0.373
+    "spinSpeed": 1.002,
+    "orbitSpeed": 0.984
   },
   {
     "x": 293.92,
@@ -527,8 +527,8 @@
     "size": 43.3,
     "depth": 0.295,
     "selfAngle": 1.667,
-    "spinSpeed": -0.897,
-    "orbitSpeed": 0.986
+    "spinSpeed": -3.089,
+    "orbitSpeed": 1.224
   },
   {
     "x": 259.77,
@@ -536,8 +536,8 @@
     "size": 33.9,
     "depth": 0.447,
     "selfAngle": 6.181,
-    "spinSpeed": 0.815,
-    "orbitSpeed": 3.723
+    "spinSpeed": -5.158,
+    "orbitSpeed": 0.796
   },
   {
     "x": 317.65,
@@ -545,8 +545,8 @@
     "size": 38.8,
     "depth": 0.314,
     "selfAngle": 0.011,
-    "spinSpeed": 0.863,
-    "orbitSpeed": 0.24
+    "spinSpeed": 6.968,
+    "orbitSpeed": 1.26
   },
   {
     "x": 301.38,
@@ -554,8 +554,8 @@
     "size": 31.9,
     "depth": 0.416,
     "selfAngle": 1.971,
-    "spinSpeed": 1.243,
-    "orbitSpeed": 1.013
+    "spinSpeed": 1.113,
+    "orbitSpeed": 0.729
   },
   {
     "x": 352.67,
@@ -563,8 +563,8 @@
     "size": 33.4,
     "depth": 0.327,
     "selfAngle": 2.527,
-    "spinSpeed": 0.907,
-    "orbitSpeed": 2.379
+    "spinSpeed": -0.257,
+    "orbitSpeed": 0.673
   },
   {
     "x": 373.91,
@@ -572,8 +572,8 @@
     "size": 32.8,
     "depth": 0.416,
     "selfAngle": 4.698,
-    "spinSpeed": -0.814,
-    "orbitSpeed": 1.166
+    "spinSpeed": 0.576,
+    "orbitSpeed": 1.194
   },
   {
     "x": 412.5,
@@ -581,8 +581,8 @@
     "size": 26.0,
     "depth": 0.387,
     "selfAngle": 1.802,
-    "spinSpeed": 0.949,
-    "orbitSpeed": 1.09
+    "spinSpeed": 0.735,
+    "orbitSpeed": 1.163
   },
   {
     "x": 455.99,
@@ -590,8 +590,8 @@
     "size": 34.0,
     "depth": 0.331,
     "selfAngle": 4.243,
-    "spinSpeed": -1.263,
-    "orbitSpeed": 0.992
+    "spinSpeed": -4.966,
+    "orbitSpeed": 0.809
   },
   {
     "x": 517.9,
@@ -599,8 +599,8 @@
     "size": 37.9,
     "depth": 0.434,
     "selfAngle": 1.782,
-    "spinSpeed": 0.922,
-    "orbitSpeed": 0.706
+    "spinSpeed": 6.699,
+    "orbitSpeed": 1.356
   },
   {
     "x": 511.24,
@@ -608,8 +608,8 @@
     "size": 31.6,
     "depth": 0.309,
     "selfAngle": 5.065,
-    "spinSpeed": -1.246,
-    "orbitSpeed": 3.979
+    "spinSpeed": 3.018,
+    "orbitSpeed": 0.791
   },
   {
     "x": 509.23,
@@ -617,8 +617,8 @@
     "size": 41.3,
     "depth": 0.369,
     "selfAngle": 0.457,
-    "spinSpeed": 1.062,
-    "orbitSpeed": 3.353
+    "spinSpeed": -0.806,
+    "orbitSpeed": 1.353
   },
   {
     "x": 553.96,
@@ -626,8 +626,8 @@
     "size": 32.9,
     "depth": 0.43,
     "selfAngle": 2.51,
-    "spinSpeed": 0.85,
-    "orbitSpeed": 4.398
+    "spinSpeed": 2.857,
+    "orbitSpeed": 1.136
   },
   {
     "x": 549.08,
@@ -635,8 +635,8 @@
     "size": 39.9,
     "depth": 0.438,
     "selfAngle": 0.669,
-    "spinSpeed": -1.216,
-    "orbitSpeed": 2.465
+    "spinSpeed": -4.103,
+    "orbitSpeed": 0.751
   },
   {
     "x": 572.15,
@@ -644,8 +644,8 @@
     "size": 34.4,
     "depth": 0.424,
     "selfAngle": 3.501,
-    "spinSpeed": -1.095,
-    "orbitSpeed": 0.78
+    "spinSpeed": -0.527,
+    "orbitSpeed": 0.615
   },
   {
     "x": 638.45,
@@ -653,8 +653,8 @@
     "size": 53.8,
     "depth": 0.686,
     "selfAngle": 3.739,
-    "spinSpeed": 1.098,
-    "orbitSpeed": 0.393
+    "spinSpeed": 0.505,
+    "orbitSpeed": 1.16
   },
   {
     "x": 622.9,
@@ -662,8 +662,8 @@
     "size": 50.6,
     "depth": 0.645,
     "selfAngle": 3.441,
-    "spinSpeed": 1.188,
-    "orbitSpeed": 2.057
+    "spinSpeed": 0.818,
+    "orbitSpeed": 0.676
   },
   {
     "x": 604.58,
@@ -671,8 +671,8 @@
     "size": 38.9,
     "depth": 0.584,
     "selfAngle": 4.005,
-    "spinSpeed": -1.202,
-    "orbitSpeed": 0.74
+    "spinSpeed": -0.338,
+    "orbitSpeed": 0.896
   },
   {
     "x": 588.76,
@@ -680,8 +680,8 @@
     "size": 39.7,
     "depth": 0.539,
     "selfAngle": 1.706,
-    "spinSpeed": -1.064,
-    "orbitSpeed": 0.928
+    "spinSpeed": -0.156,
+    "orbitSpeed": 1.024
   },
   {
     "x": 587.59,
@@ -689,8 +689,8 @@
     "size": 41.7,
     "depth": 0.557,
     "selfAngle": 0.96,
-    "spinSpeed": 1.256,
-    "orbitSpeed": 2.05
+    "spinSpeed": -0.902,
+    "orbitSpeed": 1.306
   },
   {
     "x": 573.8,
@@ -698,8 +698,8 @@
     "size": 42.3,
     "depth": 0.655,
     "selfAngle": 1.299,
-    "spinSpeed": 1.183,
-    "orbitSpeed": 3.45
+    "spinSpeed": 0.275,
+    "orbitSpeed": 1.307
   },
   {
     "x": 533.09,
@@ -707,8 +707,8 @@
     "size": 34.4,
     "depth": 0.756,
     "selfAngle": 5.531,
-    "spinSpeed": 1.293,
-    "orbitSpeed": 0.946
+    "spinSpeed": 3.481,
+    "orbitSpeed": 0.949
   },
   {
     "x": 462.81,
@@ -716,8 +716,8 @@
     "size": 41.8,
     "depth": 0.594,
     "selfAngle": 5.6,
-    "spinSpeed": 0.84,
-    "orbitSpeed": 0.244
+    "spinSpeed": -0.869,
+    "orbitSpeed": 0.722
   },
   {
     "x": 459.63,
@@ -725,8 +725,8 @@
     "size": 52.0,
     "depth": 0.719,
     "selfAngle": 3.066,
-    "spinSpeed": -1.295,
-    "orbitSpeed": 2.237
+    "spinSpeed": -2.375,
+    "orbitSpeed": 0.977
   },
   {
     "x": 481.99,
@@ -734,8 +734,8 @@
     "size": 47.6,
     "depth": 0.603,
     "selfAngle": 2.539,
-    "spinSpeed": -1.267,
-    "orbitSpeed": 0.822
+    "spinSpeed": 0.948,
+    "orbitSpeed": 0.723
   },
   {
     "x": 359.69,
@@ -743,8 +743,8 @@
     "size": 44.7,
     "depth": 0.764,
     "selfAngle": 5.696,
-    "spinSpeed": 1.175,
-    "orbitSpeed": 2.747
+    "spinSpeed": 0.12,
+    "orbitSpeed": 1.312
   },
   {
     "x": 375.22,
@@ -752,8 +752,8 @@
     "size": 37.6,
     "depth": 0.736,
     "selfAngle": 1.634,
-    "spinSpeed": -1.114,
-    "orbitSpeed": 1.295
+    "spinSpeed": 0.181,
+    "orbitSpeed": 1.142
   },
   {
     "x": 346.51,
@@ -761,8 +761,8 @@
     "size": 41.6,
     "depth": 0.71,
     "selfAngle": 4.723,
-    "spinSpeed": 1.149,
-    "orbitSpeed": 0.269
+    "spinSpeed": -0.693,
+    "orbitSpeed": 0.73
   },
   {
     "x": 339.73,
@@ -770,8 +770,8 @@
     "size": 44.8,
     "depth": 0.524,
     "selfAngle": 6.279,
-    "spinSpeed": 1.13,
-    "orbitSpeed": 2.441
+    "spinSpeed": -0.379,
+    "orbitSpeed": 0.727
   },
   {
     "x": 293.09,
@@ -779,8 +779,8 @@
     "size": 34.8,
     "depth": 0.759,
     "selfAngle": 0.195,
-    "spinSpeed": -1.227,
-    "orbitSpeed": 0.216
+    "spinSpeed": -3.037,
+    "orbitSpeed": 0.927
   },
   {
     "x": 278.2,
@@ -788,8 +788,8 @@
     "size": 36.5,
     "depth": 0.557,
     "selfAngle": 4.204,
-    "spinSpeed": 1.059,
-    "orbitSpeed": 1.169
+    "spinSpeed": 2.163,
+    "orbitSpeed": 0.663
   },
   {
     "x": 220.19,
@@ -797,8 +797,8 @@
     "size": 46.1,
     "depth": 0.611,
     "selfAngle": 6.052,
-    "spinSpeed": 0.846,
-    "orbitSpeed": 1.966
+    "spinSpeed": 2.876,
+    "orbitSpeed": 1.182
   },
   {
     "x": 201.62,
@@ -806,8 +806,8 @@
     "size": 45.6,
     "depth": 0.597,
     "selfAngle": 5.833,
-    "spinSpeed": -0.922,
-    "orbitSpeed": 1.047
+    "spinSpeed": -0.835,
+    "orbitSpeed": 0.617
   },
   {
     "x": 159.22,
@@ -815,8 +815,8 @@
     "size": 47.8,
     "depth": 0.538,
     "selfAngle": 3.939,
-    "spinSpeed": -1.253,
-    "orbitSpeed": 1.129
+    "spinSpeed": 6.038,
+    "orbitSpeed": 1.245
   },
   {
     "x": 127.19,
@@ -824,8 +824,8 @@
     "size": 50.1,
     "depth": 0.69,
     "selfAngle": 5.0,
-    "spinSpeed": 1.22,
-    "orbitSpeed": 0.214
+    "spinSpeed": 2.847,
+    "orbitSpeed": 1.145
   },
   {
     "x": 125.4,
@@ -833,8 +833,8 @@
     "size": 44.1,
     "depth": 0.612,
     "selfAngle": 2.143,
-    "spinSpeed": 1.283,
-    "orbitSpeed": 1.185
+    "spinSpeed": -1.159,
+    "orbitSpeed": 1.376
   },
   {
     "x": 87.7,
@@ -842,8 +842,8 @@
     "size": 46.7,
     "depth": 0.759,
     "selfAngle": 5.204,
-    "spinSpeed": 1.112,
-    "orbitSpeed": 0.348
+    "spinSpeed": 0.93,
+    "orbitSpeed": 0.609
   },
   {
     "x": 75.56,
@@ -851,8 +851,8 @@
     "size": 39.4,
     "depth": 0.761,
     "selfAngle": 5.075,
-    "spinSpeed": 0.823,
-    "orbitSpeed": 2.254
+    "spinSpeed": -2.075,
+    "orbitSpeed": 1.205
   },
   {
     "x": 108.48,
@@ -860,8 +860,8 @@
     "size": 40.4,
     "depth": 0.667,
     "selfAngle": 1.542,
-    "spinSpeed": 1.155,
-    "orbitSpeed": 0.3
+    "spinSpeed": -5.665,
+    "orbitSpeed": 0.765
   },
   {
     "x": 98.06,
@@ -869,8 +869,8 @@
     "size": 45.4,
     "depth": 0.707,
     "selfAngle": 4.196,
-    "spinSpeed": -0.862,
-    "orbitSpeed": 2.188
+    "spinSpeed": 2.416,
+    "orbitSpeed": 1.192
   },
   {
     "x": 163.29,
@@ -878,8 +878,8 @@
     "size": 38.2,
     "depth": 0.565,
     "selfAngle": 5.01,
-    "spinSpeed": 1.185,
-    "orbitSpeed": 1.923
+    "spinSpeed": -0.746,
+    "orbitSpeed": 0.792
   },
   {
     "x": 131.58,
@@ -887,8 +887,8 @@
     "size": 45.1,
     "depth": 0.739,
     "selfAngle": 3.244,
-    "spinSpeed": 1.011,
-    "orbitSpeed": 0.2
+    "spinSpeed": 6.735,
+    "orbitSpeed": 1.058
   },
   {
     "x": 185.05,
@@ -896,8 +896,8 @@
     "size": 49.2,
     "depth": 0.641,
     "selfAngle": 4.337,
-    "spinSpeed": 0.922,
-    "orbitSpeed": 0.472
+    "spinSpeed": 3.061,
+    "orbitSpeed": 1.387
   },
   {
     "x": 170.8,
@@ -905,8 +905,8 @@
     "size": 42.1,
     "depth": 0.593,
     "selfAngle": 1.528,
-    "spinSpeed": 0.978,
-    "orbitSpeed": 0.909
+    "spinSpeed": -1.127,
+    "orbitSpeed": 1.342
   },
   {
     "x": 230.43,
@@ -914,8 +914,8 @@
     "size": 48.9,
     "depth": 0.626,
     "selfAngle": 2.077,
-    "spinSpeed": 0.853,
-    "orbitSpeed": 2.276
+    "spinSpeed": -0.797,
+    "orbitSpeed": 0.698
   },
   {
     "x": 247.25,
@@ -923,8 +923,8 @@
     "size": 37.9,
     "depth": 0.549,
     "selfAngle": 0.751,
-    "spinSpeed": -1.272,
-    "orbitSpeed": 2.319
+    "spinSpeed": -2.906,
+    "orbitSpeed": 1.217
   },
   {
     "x": 320.17,
@@ -932,8 +932,8 @@
     "size": 45.8,
     "depth": 0.588,
     "selfAngle": 4.774,
-    "spinSpeed": 1.046,
-    "orbitSpeed": 1.19
+    "spinSpeed": -2.178,
+    "orbitSpeed": 0.748
   },
   {
     "x": 364.61,
@@ -941,8 +941,8 @@
     "size": 41.2,
     "depth": 0.593,
     "selfAngle": 1.898,
-    "spinSpeed": -1.2,
-    "orbitSpeed": 0.936
+    "spinSpeed": 0.821,
+    "orbitSpeed": 0.812
   },
   {
     "x": 417.2,
@@ -950,8 +950,8 @@
     "size": 47.9,
     "depth": 0.658,
     "selfAngle": 0.793,
-    "spinSpeed": -1.0,
-    "orbitSpeed": 0.273
+    "spinSpeed": -0.808,
+    "orbitSpeed": 1.231
   },
   {
     "x": 354.05,
@@ -959,8 +959,8 @@
     "size": 43.6,
     "depth": 0.59,
     "selfAngle": 2.14,
-    "spinSpeed": 1.217,
-    "orbitSpeed": 1.035
+    "spinSpeed": -3.489,
+    "orbitSpeed": 1.189
   },
   {
     "x": 466.07,
@@ -968,8 +968,8 @@
     "size": 35.3,
     "depth": 0.548,
     "selfAngle": 3.088,
-    "spinSpeed": -1.02,
-    "orbitSpeed": 1.15
+    "spinSpeed": -0.333,
+    "orbitSpeed": 0.714
   },
   {
     "x": 520.21,
@@ -977,8 +977,8 @@
     "size": 35.7,
     "depth": 0.757,
     "selfAngle": 1.559,
-    "spinSpeed": -1.172,
-    "orbitSpeed": 2.27
+    "spinSpeed": 4.591,
+    "orbitSpeed": 1.061
   },
   {
     "x": 522.31,
@@ -986,8 +986,8 @@
     "size": 44.5,
     "depth": 0.576,
     "selfAngle": 2.829,
-    "spinSpeed": 0.813,
-    "orbitSpeed": 3.067
+    "spinSpeed": 1.036,
+    "orbitSpeed": 1.296
   },
   {
     "x": 542.71,
@@ -995,8 +995,8 @@
     "size": 45.4,
     "depth": 0.626,
     "selfAngle": 0.378,
-    "spinSpeed": -1.25,
-    "orbitSpeed": 0.305
+    "spinSpeed": -4.397,
+    "orbitSpeed": 0.622
   },
   {
     "x": 531.36,
@@ -1004,8 +1004,8 @@
     "size": 47.2,
     "depth": 0.572,
     "selfAngle": 0.986,
-    "spinSpeed": -1.0,
-    "orbitSpeed": 0.964
+    "spinSpeed": 0.94,
+    "orbitSpeed": 0.969
   },
   {
     "x": 561.84,
@@ -1013,8 +1013,8 @@
     "size": 47.8,
     "depth": 0.621,
     "selfAngle": 2.951,
-    "spinSpeed": 1.016,
-    "orbitSpeed": 0.734
+    "spinSpeed": -2.437,
+    "orbitSpeed": 1.292
   },
   {
     "x": 626.43,
@@ -1022,8 +1022,8 @@
     "size": 43.1,
     "depth": 0.695,
     "selfAngle": 4.317,
-    "spinSpeed": -0.911,
-    "orbitSpeed": 1.83
+    "spinSpeed": 0.587,
+    "orbitSpeed": 1.187
   },
   {
     "x": 632.48,
@@ -1031,8 +1031,8 @@
     "size": 52.7,
     "depth": 0.685,
     "selfAngle": 2.67,
-    "spinSpeed": -0.902,
-    "orbitSpeed": 0.205
+    "spinSpeed": -1.094,
+    "orbitSpeed": 1.076
   },
   {
     "x": 650.71,
@@ -1040,8 +1040,8 @@
     "size": 35.4,
     "depth": 0.726,
     "selfAngle": 1.042,
-    "spinSpeed": -1.001,
-    "orbitSpeed": 1.759
+    "spinSpeed": -0.326,
+    "orbitSpeed": 0.799
   },
   {
     "x": 714.76,
@@ -1049,8 +1049,8 @@
     "size": 51.7,
     "depth": 0.983,
     "selfAngle": 2.943,
-    "spinSpeed": -0.843,
-    "orbitSpeed": 3.88
+    "spinSpeed": 2.898,
+    "orbitSpeed": 0.683
   },
   {
     "x": 674.53,
@@ -1058,8 +1058,8 @@
     "size": 52.9,
     "depth": 0.894,
     "selfAngle": 0.505,
-    "spinSpeed": -0.841,
-    "orbitSpeed": 1.114
+    "spinSpeed": 2.642,
+    "orbitSpeed": 0.707
   },
   {
     "x": 668.1,
@@ -1067,8 +1067,8 @@
     "size": 42.6,
     "depth": 0.916,
     "selfAngle": 1.438,
-    "spinSpeed": 0.83,
-    "orbitSpeed": 2.367
+    "spinSpeed": -0.954,
+    "orbitSpeed": 1.149
   },
   {
     "x": 628.2,
@@ -1076,8 +1076,8 @@
     "size": 42.9,
     "depth": 0.845,
     "selfAngle": 4.749,
-    "spinSpeed": 1.162,
-    "orbitSpeed": 0.411
+    "spinSpeed": -2.282,
+    "orbitSpeed": 0.607
   },
   {
     "x": 613.19,
@@ -1085,8 +1085,8 @@
     "size": 63.9,
     "depth": 0.847,
     "selfAngle": 2.737,
-    "spinSpeed": 1.033,
-    "orbitSpeed": 0.449
+    "spinSpeed": 0.586,
+    "orbitSpeed": 1.157
   },
   {
     "x": 577.26,
@@ -1094,8 +1094,8 @@
     "size": 49.1,
     "depth": 0.875,
     "selfAngle": 0.657,
-    "spinSpeed": 0.939,
-    "orbitSpeed": 2.231
+    "spinSpeed": -0.993,
+    "orbitSpeed": 1.397
   },
   {
     "x": 503.32,
@@ -1103,8 +1103,8 @@
     "size": 62.8,
     "depth": 0.849,
     "selfAngle": 5.109,
-    "spinSpeed": 0.874,
-    "orbitSpeed": 2.464
+    "spinSpeed": 5.122,
+    "orbitSpeed": 1.001
   },
   {
     "x": 497.56,
@@ -1112,8 +1112,8 @@
     "size": 63.3,
     "depth": 0.857,
     "selfAngle": 2.538,
-    "spinSpeed": 0.889,
-    "orbitSpeed": 0.251
+    "spinSpeed": -0.742,
+    "orbitSpeed": 1.109
   },
   {
     "x": 417.66,
@@ -1121,8 +1121,8 @@
     "size": 46.1,
     "depth": 0.876,
     "selfAngle": 2.272,
-    "spinSpeed": -1.281,
-    "orbitSpeed": 2.193
+    "spinSpeed": 0.86,
+    "orbitSpeed": 1.109
   },
   {
     "x": 334.74,
@@ -1130,8 +1130,8 @@
     "size": 54.1,
     "depth": 0.832,
     "selfAngle": 5.826,
-    "spinSpeed": 0.834,
-    "orbitSpeed": 1.678
+    "spinSpeed": -1.097,
+    "orbitSpeed": 0.951
   },
   {
     "x": 316.49,
@@ -1139,8 +1139,8 @@
     "size": 55.9,
     "depth": 0.795,
     "selfAngle": 5.02,
-    "spinSpeed": 0.994,
-    "orbitSpeed": 1.83
+    "spinSpeed": 3.334,
+    "orbitSpeed": 1.275
   },
   {
     "x": 317.41,
@@ -1148,8 +1148,8 @@
     "size": 46.9,
     "depth": 0.875,
     "selfAngle": 5.284,
-    "spinSpeed": 1.166,
-    "orbitSpeed": 0.823
+    "spinSpeed": -0.104,
+    "orbitSpeed": 0.876
   },
   {
     "x": 241.82,
@@ -1157,8 +1157,8 @@
     "size": 53.0,
     "depth": 0.964,
     "selfAngle": 4.5,
-    "spinSpeed": -1.139,
-    "orbitSpeed": 3.214
+    "spinSpeed": 0.651,
+    "orbitSpeed": 0.862
   },
   {
     "x": 159.26,
@@ -1166,8 +1166,8 @@
     "size": 52.0,
     "depth": 0.888,
     "selfAngle": 0.908,
-    "spinSpeed": 1.241,
-    "orbitSpeed": 2.295
+    "spinSpeed": 0.507,
+    "orbitSpeed": 0.965
   },
   {
     "x": 99.44,
@@ -1175,8 +1175,8 @@
     "size": 61.0,
     "depth": 0.974,
     "selfAngle": 1.735,
-    "spinSpeed": 1.052,
-    "orbitSpeed": 1.187
+    "spinSpeed": 0.578,
+    "orbitSpeed": 1.278
   },
   {
     "x": 78.24,
@@ -1184,8 +1184,8 @@
     "size": 42.1,
     "depth": 0.845,
     "selfAngle": 4.56,
-    "spinSpeed": -1.109,
-    "orbitSpeed": 0.293
+    "spinSpeed": 0.137,
+    "orbitSpeed": 1.103
   },
   {
     "x": 62.56,
@@ -1193,8 +1193,8 @@
     "size": 49.3,
     "depth": 0.891,
     "selfAngle": 4.791,
-    "spinSpeed": -1.186,
-    "orbitSpeed": 0.429
+    "spinSpeed": 0.173,
+    "orbitSpeed": 1.031
   },
   {
     "x": 65.99,
@@ -1202,8 +1202,8 @@
     "size": 57.3,
     "depth": 0.828,
     "selfAngle": 3.591,
-    "spinSpeed": -0.918,
-    "orbitSpeed": 2.579
+    "spinSpeed": 1.052,
+    "orbitSpeed": 0.796
   },
   {
     "x": 49.74,
@@ -1211,8 +1211,8 @@
     "size": 52.4,
     "depth": 0.856,
     "selfAngle": 5.736,
-    "spinSpeed": -0.81,
-    "orbitSpeed": 2.751
+    "spinSpeed": -6.419,
+    "orbitSpeed": 0.92
   },
   {
     "x": 31.79,
@@ -1220,8 +1220,8 @@
     "size": 63.6,
     "depth": 0.962,
     "selfAngle": 3.111,
-    "spinSpeed": -1.103,
-    "orbitSpeed": 4.058
+    "spinSpeed": 0.904,
+    "orbitSpeed": 1.308
   },
   {
     "x": 93.28,
@@ -1229,8 +1229,8 @@
     "size": 44.2,
     "depth": 0.859,
     "selfAngle": 5.307,
-    "spinSpeed": 1.131,
-    "orbitSpeed": 3.192
+    "spinSpeed": 2.785,
+    "orbitSpeed": 1.313
   },
   {
     "x": 69.94,
@@ -1238,8 +1238,8 @@
     "size": 51.0,
     "depth": 0.941,
     "selfAngle": 4.112,
-    "spinSpeed": -0.921,
-    "orbitSpeed": 1.115
+    "spinSpeed": -3.124,
+    "orbitSpeed": 0.63
   },
   {
     "x": 150.31,
@@ -1247,8 +1247,8 @@
     "size": 55.7,
     "depth": 0.845,
     "selfAngle": 2.496,
-    "spinSpeed": -0.85,
-    "orbitSpeed": 0.298
+    "spinSpeed": 2.702,
+    "orbitSpeed": 1.221
   },
   {
     "x": 183.4,
@@ -1256,8 +1256,8 @@
     "size": 50.4,
     "depth": 0.97,
     "selfAngle": 1.989,
-    "spinSpeed": 0.835,
-    "orbitSpeed": 1.731
+    "spinSpeed": -0.844,
+    "orbitSpeed": 0.831
   },
   {
     "x": 169.21,
@@ -1265,8 +1265,8 @@
     "size": 55.9,
     "depth": 0.803,
     "selfAngle": 5.783,
-    "spinSpeed": -0.842,
-    "orbitSpeed": 2.525
+    "spinSpeed": -1.891,
+    "orbitSpeed": 0.911
   },
   {
     "x": 255.04,
@@ -1274,8 +1274,8 @@
     "size": 55.9,
     "depth": 0.809,
     "selfAngle": 5.48,
-    "spinSpeed": 1.173,
-    "orbitSpeed": 1.043
+    "spinSpeed": 1.074,
+    "orbitSpeed": 1.068
   },
   {
     "x": 291.04,
@@ -1283,8 +1283,8 @@
     "size": 49.1,
     "depth": 0.795,
     "selfAngle": 0.352,
-    "spinSpeed": 1.033,
-    "orbitSpeed": 2.75
+    "spinSpeed": 0.193,
+    "orbitSpeed": 1.203
   },
   {
     "x": 320.52,
@@ -1292,8 +1292,8 @@
     "size": 54.5,
     "depth": 0.901,
     "selfAngle": 4.977,
-    "spinSpeed": -1.077,
-    "orbitSpeed": 3.119
+    "spinSpeed": 3.341,
+    "orbitSpeed": 0.816
   },
   {
     "x": 436.58,
@@ -1301,8 +1301,8 @@
     "size": 57.0,
     "depth": 0.869,
     "selfAngle": 3.125,
-    "spinSpeed": -1.182,
-    "orbitSpeed": 2.649
+    "spinSpeed": 2.523,
+    "orbitSpeed": 0.899
   },
   {
     "x": 494.97,
@@ -1310,8 +1310,8 @@
     "size": 56.7,
     "depth": 0.886,
     "selfAngle": 5.645,
-    "spinSpeed": 1.275,
-    "orbitSpeed": 0.372
+    "spinSpeed": -0.889,
+    "orbitSpeed": 1.102
   },
   {
     "x": 539.97,
@@ -1319,8 +1319,8 @@
     "size": 51.7,
     "depth": 0.822,
     "selfAngle": 2.17,
-    "spinSpeed": 0.994,
-    "orbitSpeed": 0.998
+    "spinSpeed": -0.288,
+    "orbitSpeed": 1.181
   },
   {
     "x": 561.35,
@@ -1328,8 +1328,8 @@
     "size": 60.6,
     "depth": 0.841,
     "selfAngle": 1.251,
-    "spinSpeed": -1.208,
-    "orbitSpeed": 0.762
+    "spinSpeed": 1.832,
+    "orbitSpeed": 0.948
   },
   {
     "x": 577.56,
@@ -1337,8 +1337,8 @@
     "size": 49.9,
     "depth": 0.869,
     "selfAngle": 1.858,
-    "spinSpeed": -0.951,
-    "orbitSpeed": 0.335
+    "spinSpeed": -0.616,
+    "orbitSpeed": 0.73
   },
   {
     "x": 664.45,
@@ -1346,8 +1346,8 @@
     "size": 42.2,
     "depth": 0.872,
     "selfAngle": 5.433,
-    "spinSpeed": 1.036,
-    "orbitSpeed": 2.112
+    "spinSpeed": -3.245,
+    "orbitSpeed": 0.611
   },
   {
     "x": 702.01,
@@ -1355,8 +1355,8 @@
     "size": 61.9,
     "depth": 0.965,
     "selfAngle": 4.872,
-    "spinSpeed": 1.037,
-    "orbitSpeed": 1.085
+    "spinSpeed": 1.092,
+    "orbitSpeed": 0.799
   },
   {
     "x": 692.95,
@@ -1364,8 +1364,8 @@
     "size": 55.7,
     "depth": 0.923,
     "selfAngle": 4.256,
-    "spinSpeed": -0.805,
-    "orbitSpeed": 3.031
+    "spinSpeed": -1.082,
+    "orbitSpeed": 0.824
   },
   {
     "x": 583.11,
@@ -1373,8 +1373,8 @@
     "size": 23.9,
     "depth": 0.646,
     "selfAngle": 2.768,
-    "spinSpeed": 1.064,
-    "orbitSpeed": 0.288
+    "spinSpeed": 1.124,
+    "orbitSpeed": 0.984
   },
   {
     "x": 511.96,
@@ -1382,8 +1382,8 @@
     "size": 37.9,
     "depth": 0.295,
     "selfAngle": 1.103,
-    "spinSpeed": -0.8,
-    "orbitSpeed": 1.11
+    "spinSpeed": 2.984,
+    "orbitSpeed": 0.83
   },
   {
     "x": 502.71,
@@ -1391,8 +1391,8 @@
     "size": 30.1,
     "depth": 0.366,
     "selfAngle": 1.711,
-    "spinSpeed": -0.825,
-    "orbitSpeed": 0.425
+    "spinSpeed": -1.198,
+    "orbitSpeed": 1.303
   },
   {
     "x": 466.66,
@@ -1400,8 +1400,8 @@
     "size": 39.8,
     "depth": 0.482,
     "selfAngle": 4.688,
-    "spinSpeed": -0.924,
-    "orbitSpeed": 2.218
+    "spinSpeed": -3.131,
+    "orbitSpeed": 1.048
   },
   {
     "x": 254.72,
@@ -1409,8 +1409,8 @@
     "size": 38.1,
     "depth": 0.075,
     "selfAngle": 1.417,
-    "spinSpeed": 0.811,
-    "orbitSpeed": 0.801
+    "spinSpeed": 1.141,
+    "orbitSpeed": 0.622
   },
   {
     "x": 430.97,
@@ -1418,8 +1418,8 @@
     "size": 39.3,
     "depth": 0.366,
     "selfAngle": 0.087,
-    "spinSpeed": 0.91,
-    "orbitSpeed": 1.236
+    "spinSpeed": 3.065,
+    "orbitSpeed": 1.235
   },
   {
     "x": 241.28,
@@ -1427,8 +1427,8 @@
     "size": 32.7,
     "depth": 0.672,
     "selfAngle": 5.165,
-    "spinSpeed": -1.221,
-    "orbitSpeed": 0.707
+    "spinSpeed": 3.2,
+    "orbitSpeed": 1.298
   },
   {
     "x": 377.34,
@@ -1436,8 +1436,8 @@
     "size": 42.3,
     "depth": 0.025,
     "selfAngle": 3.526,
-    "spinSpeed": 1.178,
-    "orbitSpeed": 1.253
+    "spinSpeed": 2.674,
+    "orbitSpeed": 0.999
   },
   {
     "x": 224.8,
@@ -1445,8 +1445,8 @@
     "size": 36.4,
     "depth": 0.464,
     "selfAngle": 4.077,
-    "spinSpeed": 0.869,
-    "orbitSpeed": 0.936
+    "spinSpeed": -0.965,
+    "orbitSpeed": 1.124
   },
   {
     "x": 531.34,
@@ -1454,8 +1454,8 @@
     "size": 29.8,
     "depth": 0.304,
     "selfAngle": 0.61,
-    "spinSpeed": -0.957,
-    "orbitSpeed": 1.116
+    "spinSpeed": 0.534,
+    "orbitSpeed": 1.216
   },
   {
     "x": 131.46,
@@ -1463,8 +1463,8 @@
     "size": 36.3,
     "depth": 0.949,
     "selfAngle": 3.392,
-    "spinSpeed": -1.125,
-    "orbitSpeed": 1.747
+    "spinSpeed": -0.133,
+    "orbitSpeed": 1.203
   },
   {
     "x": 191.68,
@@ -1472,8 +1472,8 @@
     "size": 33.7,
     "depth": 0.834,
     "selfAngle": 5.897,
-    "spinSpeed": 0.853,
-    "orbitSpeed": 0.3
+    "spinSpeed": -1.989,
+    "orbitSpeed": 0.639
   },
   {
     "x": 222.58,
@@ -1481,8 +1481,8 @@
     "size": 44.4,
     "depth": 0.443,
     "selfAngle": 5.372,
-    "spinSpeed": 1.139,
-    "orbitSpeed": 3.519
+    "spinSpeed": -2.295,
+    "orbitSpeed": 1.122
   },
   {
     "x": 145.57,
@@ -1490,8 +1490,8 @@
     "size": 34.6,
     "depth": 0.902,
     "selfAngle": 0.38,
-    "spinSpeed": 0.895,
-    "orbitSpeed": 0.774
+    "spinSpeed": 0.695,
+    "orbitSpeed": 1.361
   },
   {
     "x": 594.07,
@@ -1499,8 +1499,8 @@
     "size": 28.6,
     "depth": 0.848,
     "selfAngle": 4.162,
-    "spinSpeed": -1.282,
-    "orbitSpeed": 0.953
+    "spinSpeed": -3.465,
+    "orbitSpeed": 1.161
   },
   {
     "x": 190.66,
@@ -1508,8 +1508,8 @@
     "size": 39.2,
     "depth": 0.989,
     "selfAngle": 1.289,
-    "spinSpeed": -0.838,
-    "orbitSpeed": 1.005
+    "spinSpeed": -6.644,
+    "orbitSpeed": 0.971
   },
   {
     "x": 427.08,
@@ -1517,8 +1517,8 @@
     "size": 38.8,
     "depth": 0.233,
     "selfAngle": 4.953,
-    "spinSpeed": -0.948,
-    "orbitSpeed": 2.176
+    "spinSpeed": -0.204,
+    "orbitSpeed": 1.277
   },
   {
     "x": 717.03,
@@ -1526,8 +1526,8 @@
     "size": 31.3,
     "depth": 0.988,
     "selfAngle": 5.015,
-    "spinSpeed": 1.066,
-    "orbitSpeed": 3.099
+    "spinSpeed": 0.127,
+    "orbitSpeed": 0.764
   },
   {
     "x": 464.61,
@@ -1535,8 +1535,8 @@
     "size": 39.3,
     "depth": 0.015,
     "selfAngle": 1.494,
-    "spinSpeed": 1.113,
-    "orbitSpeed": 1.048
+    "spinSpeed": -0.617,
+    "orbitSpeed": 0.603
   },
   {
     "x": 354.7,
@@ -1544,8 +1544,8 @@
     "size": 27.5,
     "depth": 0.127,
     "selfAngle": 0.714,
-    "spinSpeed": -1.173,
-    "orbitSpeed": 0.794
+    "spinSpeed": 0.53,
+    "orbitSpeed": 1.155
   },
   {
     "x": 407.05,
@@ -1553,8 +1553,8 @@
     "size": 17.5,
     "depth": 0.513,
     "selfAngle": 3.164,
-    "spinSpeed": 1.277,
-    "orbitSpeed": 2.078
+    "spinSpeed": 0.888,
+    "orbitSpeed": 0.739
   },
   {
     "x": 590.77,
@@ -1562,8 +1562,8 @@
     "size": 23.7,
     "depth": 0.659,
     "selfAngle": 4.04,
-    "spinSpeed": 1.103,
-    "orbitSpeed": 0.4
+    "spinSpeed": 2.087,
+    "orbitSpeed": 1.278
   },
   {
     "x": 169.36,
@@ -1571,8 +1571,8 @@
     "size": 36.0,
     "depth": 0.402,
     "selfAngle": 3.079,
-    "spinSpeed": -1.005,
-    "orbitSpeed": 2.64
+    "spinSpeed": -4.925,
+    "orbitSpeed": 0.678
   },
   {
     "x": 588.27,
@@ -1580,8 +1580,8 @@
     "size": 16.1,
     "depth": 0.608,
     "selfAngle": 1.727,
-    "spinSpeed": -1.083,
-    "orbitSpeed": 2.139
+    "spinSpeed": -2.453,
+    "orbitSpeed": 0.861
   },
   {
     "x": 226.52,
@@ -1589,8 +1589,8 @@
     "size": 30.2,
     "depth": 0.295,
     "selfAngle": 2.702,
-    "spinSpeed": -0.804,
-    "orbitSpeed": 2.589
+    "spinSpeed": -2.215,
+    "orbitSpeed": 1.197
   },
   {
     "x": 195.06,
@@ -1598,8 +1598,8 @@
     "size": 37.1,
     "depth": 0.769,
     "selfAngle": 1.35,
-    "spinSpeed": -1.219,
-    "orbitSpeed": 3.562
+    "spinSpeed": 3.109,
+    "orbitSpeed": 0.782
   },
   {
     "x": 101.28,
@@ -1607,8 +1607,8 @@
     "size": 26.8,
     "depth": 0.827,
     "selfAngle": 4.582,
-    "spinSpeed": -1.161,
-    "orbitSpeed": 2.525
+    "spinSpeed": -0.389,
+    "orbitSpeed": 1.397
   },
   {
     "x": 269.25,
@@ -1616,8 +1616,8 @@
     "size": 18.9,
     "depth": 0.374,
     "selfAngle": 5.796,
-    "spinSpeed": 0.822,
-    "orbitSpeed": 4.139
+    "spinSpeed": 3.134,
+    "orbitSpeed": 0.969
   },
   {
     "x": 545.22,
@@ -1625,8 +1625,8 @@
     "size": 37.8,
     "depth": 0.432,
     "selfAngle": 2.34,
-    "spinSpeed": 1.177,
-    "orbitSpeed": 2.676
+    "spinSpeed": -0.535,
+    "orbitSpeed": 1.175
   },
   {
     "x": 160.73,
@@ -1634,8 +1634,8 @@
     "size": 24.5,
     "depth": 0.562,
     "selfAngle": 0.768,
-    "spinSpeed": -1.231,
-    "orbitSpeed": 0.987
+    "spinSpeed": -0.314,
+    "orbitSpeed": 1.329
   },
   {
     "x": 558.14,
@@ -1643,8 +1643,8 @@
     "size": 43.3,
     "depth": 0.423,
     "selfAngle": 0.323,
-    "spinSpeed": 1.087,
-    "orbitSpeed": 0.911
+    "spinSpeed": 6.451,
+    "orbitSpeed": 1.324
   },
   {
     "x": 220.84,
@@ -1652,8 +1652,8 @@
     "size": 20.8,
     "depth": 0.578,
     "selfAngle": 4.124,
-    "spinSpeed": -0.849,
-    "orbitSpeed": 4.45
+    "spinSpeed": -0.33,
+    "orbitSpeed": 1.093
   },
   {
     "x": 226.05,
@@ -1661,8 +1661,8 @@
     "size": 17.7,
     "depth": 0.556,
     "selfAngle": 1.749,
-    "spinSpeed": 1.196,
-    "orbitSpeed": 1.611
+    "spinSpeed": 1.803,
+    "orbitSpeed": 1.017
   },
   {
     "x": 563.14,
@@ -1670,8 +1670,8 @@
     "size": 40.2,
     "depth": 0.975,
     "selfAngle": 3.853,
-    "spinSpeed": 1.007,
-    "orbitSpeed": 0.261
+    "spinSpeed": 6.878,
+    "orbitSpeed": 1.297
   },
   {
     "x": 216.37,
@@ -1679,8 +1679,8 @@
     "size": 14.9,
     "depth": 0.693,
     "selfAngle": 1.716,
-    "spinSpeed": 1.283,
-    "orbitSpeed": 1.025
+    "spinSpeed": -0.924,
+    "orbitSpeed": 1.059
   },
   {
     "x": 282.74,
@@ -1688,8 +1688,8 @@
     "size": 18.6,
     "depth": 0.181,
     "selfAngle": 4.128,
-    "spinSpeed": -1.063,
-    "orbitSpeed": 0.375
+    "spinSpeed": -0.686,
+    "orbitSpeed": 1.23
   },
   {
     "x": 298.06,
@@ -1697,8 +1697,8 @@
     "size": 37.9,
     "depth": 0.031,
     "selfAngle": 1.351,
-    "spinSpeed": -1.216,
-    "orbitSpeed": 0.48
+    "spinSpeed": 4.905,
+    "orbitSpeed": 1.111
   },
   {
     "x": 463.77,
@@ -1706,8 +1706,8 @@
     "size": 24.4,
     "depth": 0.312,
     "selfAngle": 5.912,
-    "spinSpeed": 1.248,
-    "orbitSpeed": 0.853
+    "spinSpeed": -0.719,
+    "orbitSpeed": 0.728
   },
   {
     "x": 529.81,
@@ -1715,8 +1715,8 @@
     "size": 15.6,
     "depth": 0.754,
     "selfAngle": 0.512,
-    "spinSpeed": 1.04,
-    "orbitSpeed": 0.981
+    "spinSpeed": -1.021,
+    "orbitSpeed": 1.215
   },
   {
     "x": 157.96,
@@ -1724,8 +1724,8 @@
     "size": 22.7,
     "depth": 0.442,
     "selfAngle": 4.741,
-    "spinSpeed": -1.166,
-    "orbitSpeed": 0.919
+    "spinSpeed": 0.124,
+    "orbitSpeed": 1.027
   },
   {
     "x": 575.14,
@@ -1733,8 +1733,8 @@
     "size": 33.0,
     "depth": 0.678,
     "selfAngle": 3.309,
-    "spinSpeed": 1.101,
-    "orbitSpeed": 2.233
+    "spinSpeed": 0.831,
+    "orbitSpeed": 1.311
   },
   {
     "x": 168.6,
@@ -1742,8 +1742,8 @@
     "size": 14.2,
     "depth": 0.599,
     "selfAngle": 1.893,
-    "spinSpeed": -1.166,
-    "orbitSpeed": 2.05
+    "spinSpeed": -1.04,
+    "orbitSpeed": 1.126
   },
   {
     "x": 382.17,
@@ -1751,8 +1751,8 @@
     "size": 17.8,
     "depth": 0.289,
     "selfAngle": 3.124,
-    "spinSpeed": -1.262,
-    "orbitSpeed": 0.75
+    "spinSpeed": -0.838,
+    "orbitSpeed": 0.853
   },
   {
     "x": 164.17,
@@ -1760,8 +1760,8 @@
     "size": 30.0,
     "depth": 0.704,
     "selfAngle": 5.233,
-    "spinSpeed": 1.212,
-    "orbitSpeed": 2.245
+    "spinSpeed": -3.377,
+    "orbitSpeed": 1.202
   },
   {
     "x": 435.51,
@@ -1769,8 +1769,8 @@
     "size": 14.6,
     "depth": 0.042,
     "selfAngle": 5.785,
-    "spinSpeed": -0.973,
-    "orbitSpeed": 0.822
+    "spinSpeed": 0.262,
+    "orbitSpeed": 0.763
   },
   {
     "x": 116.77,
@@ -1778,8 +1778,8 @@
     "size": 27.4,
     "depth": 0.709,
     "selfAngle": 0.723,
-    "spinSpeed": 1.181,
-    "orbitSpeed": 1.233
+    "spinSpeed": -2.251,
+    "orbitSpeed": 0.676
   },
   {
     "x": 527.97,
@@ -1787,8 +1787,8 @@
     "size": 28.7,
     "depth": 0.948,
     "selfAngle": 4.331,
-    "spinSpeed": 1.176,
-    "orbitSpeed": 1.223
+    "spinSpeed": -0.674,
+    "orbitSpeed": 0.939
   },
   {
     "x": 455.57,
@@ -1796,8 +1796,8 @@
     "size": 32.8,
     "depth": 0.243,
     "selfAngle": 3.29,
-    "spinSpeed": -0.838,
-    "orbitSpeed": 1.031
+    "spinSpeed": 3.176,
+    "orbitSpeed": 0.67
   },
   {
     "x": 473.89,
@@ -1805,8 +1805,8 @@
     "size": 18.1,
     "depth": 0.046,
     "selfAngle": 1.56,
-    "spinSpeed": -1.168,
-    "orbitSpeed": 2.417
+    "spinSpeed": 0.544,
+    "orbitSpeed": 1.278
   },
   {
     "x": 497.66,
@@ -1814,8 +1814,8 @@
     "size": 22.5,
     "depth": 0.158,
     "selfAngle": 5.893,
-    "spinSpeed": 1.077,
-    "orbitSpeed": 0.339
+    "spinSpeed": 0.888,
+    "orbitSpeed": 1.157
   },
   {
     "x": 455.69,
@@ -1823,8 +1823,8 @@
     "size": 25.5,
     "depth": 0.136,
     "selfAngle": 4.951,
-    "spinSpeed": 0.802,
-    "orbitSpeed": 0.47
+    "spinSpeed": -3.494,
+    "orbitSpeed": 1.112
   },
   {
     "x": 444.62,
@@ -1832,8 +1832,8 @@
     "size": 18.1,
     "depth": 0.106,
     "selfAngle": 3.56,
-    "spinSpeed": 1.053,
-    "orbitSpeed": 0.879
+    "spinSpeed": 2.533,
+    "orbitSpeed": 0.809
   },
   {
     "x": 389.36,
@@ -1841,8 +1841,8 @@
     "size": 21.6,
     "depth": 0.179,
     "selfAngle": 2.528,
-    "spinSpeed": -1.279,
-    "orbitSpeed": 0.878
+    "spinSpeed": -5.254,
+    "orbitSpeed": 1.169
   },
   {
     "x": 351.6,
@@ -1850,8 +1850,8 @@
     "size": 27.2,
     "depth": 0.084,
     "selfAngle": 0.508,
-    "spinSpeed": 1.239,
-    "orbitSpeed": 3.729
+    "spinSpeed": -3.257,
+    "orbitSpeed": 1.345
   },
   {
     "x": 284.27,
@@ -1859,8 +1859,8 @@
     "size": 18.6,
     "depth": 0.083,
     "selfAngle": 5.782,
-    "spinSpeed": -1.061,
-    "orbitSpeed": 0.231
+    "spinSpeed": -2.193,
+    "orbitSpeed": 0.827
   },
   {
     "x": 254.98,
@@ -1868,8 +1868,8 @@
     "size": 18.1,
     "depth": 0.213,
     "selfAngle": 3.16,
-    "spinSpeed": -1.073,
-    "orbitSpeed": 0.281
+    "spinSpeed": 5.589,
+    "orbitSpeed": 0.801
   },
   {
     "x": 266.3,
@@ -1877,8 +1877,8 @@
     "size": 25.8,
     "depth": 0.109,
     "selfAngle": 0.51,
-    "spinSpeed": 0.939,
-    "orbitSpeed": 1.073
+    "spinSpeed": 0.369,
+    "orbitSpeed": 0.811
   },
   {
     "x": 237.63,
@@ -1886,8 +1886,8 @@
     "size": 20.6,
     "depth": 0.142,
     "selfAngle": 0.853,
-    "spinSpeed": -0.913,
-    "orbitSpeed": 0.835
+    "spinSpeed": 3.342,
+    "orbitSpeed": 0.683
   },
   {
     "x": 281.22,
@@ -1895,8 +1895,8 @@
     "size": 18.5,
     "depth": 0.013,
     "selfAngle": 1.618,
-    "spinSpeed": -0.838,
-    "orbitSpeed": 0.212
+    "spinSpeed": 0.279,
+    "orbitSpeed": 1.217
   },
   {
     "x": 233.3,
@@ -1904,8 +1904,8 @@
     "size": 21.7,
     "depth": 0.217,
     "selfAngle": 0.351,
-    "spinSpeed": 1.28,
-    "orbitSpeed": 2.161
+    "spinSpeed": 0.302,
+    "orbitSpeed": 0.627
   },
   {
     "x": 312.23,
@@ -1913,8 +1913,8 @@
     "size": 17.7,
     "depth": 0.022,
     "selfAngle": 1.094,
-    "spinSpeed": -1.137,
-    "orbitSpeed": 0.217
+    "spinSpeed": -1.075,
+    "orbitSpeed": 0.735
   },
   {
     "x": 376.34,
@@ -1922,8 +1922,8 @@
     "size": 19.8,
     "depth": 0.203,
     "selfAngle": 3.135,
-    "spinSpeed": 1.14,
-    "orbitSpeed": 3.148
+    "spinSpeed": -4.438,
+    "orbitSpeed": 1.229
   },
   {
     "x": 361.29,
@@ -1931,8 +1931,8 @@
     "size": 18.2,
     "depth": 0.19,
     "selfAngle": 0.455,
-    "spinSpeed": -0.925,
-    "orbitSpeed": 3.038
+    "spinSpeed": -0.783,
+    "orbitSpeed": 1.115
   },
   {
     "x": 442.15,
@@ -1940,8 +1940,8 @@
     "size": 20.5,
     "depth": 0.078,
     "selfAngle": 2.115,
-    "spinSpeed": 0.964,
-    "orbitSpeed": 0.805
+    "spinSpeed": 2.148,
+    "orbitSpeed": 0.874
   },
   {
     "x": 477.15,
@@ -1949,8 +1949,8 @@
     "size": 18.2,
     "depth": 0.123,
     "selfAngle": 0.236,
-    "spinSpeed": -0.927,
-    "orbitSpeed": 1.02
+    "spinSpeed": -4.119,
+    "orbitSpeed": 0.679
   },
   {
     "x": 478.8,
@@ -1958,8 +1958,8 @@
     "size": 19.7,
     "depth": 0.102,
     "selfAngle": 4.109,
-    "spinSpeed": 0.909,
-    "orbitSpeed": 0.34
+    "spinSpeed": -0.781,
+    "orbitSpeed": 1.24
   },
   {
     "x": 546.45,
@@ -1967,8 +1967,8 @@
     "size": 39.8,
     "depth": 0.328,
     "selfAngle": 4.469,
-    "spinSpeed": -0.875,
-    "orbitSpeed": 0.788
+    "spinSpeed": 3.356,
+    "orbitSpeed": 0.818
   },
   {
     "x": 582.42,
@@ -1976,8 +1976,8 @@
     "size": 41.9,
     "depth": 0.49,
     "selfAngle": 2.645,
-    "spinSpeed": -0.871,
-    "orbitSpeed": 1.18
+    "spinSpeed": -5.573,
+    "orbitSpeed": 1.201
   },
   {
     "x": 550.72,
@@ -1985,8 +1985,8 @@
     "size": 31.8,
     "depth": 0.421,
     "selfAngle": 2.996,
-    "spinSpeed": -1.274,
-    "orbitSpeed": 0.918
+    "spinSpeed": 0.562,
+    "orbitSpeed": 0.718
   },
   {
     "x": 530.32,
@@ -1994,8 +1994,8 @@
     "size": 33.4,
     "depth": 0.47,
     "selfAngle": 4.134,
-    "spinSpeed": 0.805,
-    "orbitSpeed": 0.951
+    "spinSpeed": -0.816,
+    "orbitSpeed": 0.965
   },
   {
     "x": 431.35,
@@ -2003,8 +2003,8 @@
     "size": 43.8,
     "depth": 0.401,
     "selfAngle": 4.187,
-    "spinSpeed": -0.995,
-    "orbitSpeed": 1.207
+    "spinSpeed": -3.162,
+    "orbitSpeed": 1.209
   },
   {
     "x": 407.15,
@@ -2012,8 +2012,8 @@
     "size": 26.1,
     "depth": 0.299,
     "selfAngle": 2.231,
-    "spinSpeed": 1.093,
-    "orbitSpeed": 1.99
+    "spinSpeed": -6.314,
+    "orbitSpeed": 0.795
   },
   {
     "x": 372.93,
@@ -2021,8 +2021,8 @@
     "size": 29.1,
     "depth": 0.416,
     "selfAngle": 4.02,
-    "spinSpeed": 0.855,
-    "orbitSpeed": 0.417
+    "spinSpeed": -0.902,
+    "orbitSpeed": 0.793
   },
   {
     "x": 263.43,
@@ -2030,8 +2030,8 @@
     "size": 41.5,
     "depth": 0.308,
     "selfAngle": 2.17,
-    "spinSpeed": -1.145,
-    "orbitSpeed": 2.631
+    "spinSpeed": -6.211,
+    "orbitSpeed": 0.786
   },
   {
     "x": 253.52,
@@ -2039,8 +2039,8 @@
     "size": 35.4,
     "depth": 0.301,
     "selfAngle": 5.965,
-    "spinSpeed": -0.879,
-    "orbitSpeed": 1.126
+    "spinSpeed": 1.162,
+    "orbitSpeed": 0.904
   },
   {
     "x": 163.8,
@@ -2048,8 +2048,8 @@
     "size": 30.8,
     "depth": 0.483,
     "selfAngle": 5.347,
-    "spinSpeed": 1.145,
-    "orbitSpeed": 1.167
+    "spinSpeed": -2.283,
+    "orbitSpeed": 0.85
   },
   {
     "x": 173.91,
@@ -2057,8 +2057,8 @@
     "size": 37.4,
     "depth": 0.405,
     "selfAngle": 4.804,
-    "spinSpeed": 0.823,
-    "orbitSpeed": 0.34
+    "spinSpeed": -0.289,
+    "orbitSpeed": 1.147
   },
   {
     "x": 206.18,
@@ -2066,8 +2066,8 @@
     "size": 31.5,
     "depth": 0.276,
     "selfAngle": 3.646,
-    "spinSpeed": 1.177,
-    "orbitSpeed": 1.017
+    "spinSpeed": -0.249,
+    "orbitSpeed": 0.656
   },
   {
     "x": 175.23,
@@ -2075,8 +2075,8 @@
     "size": 43.1,
     "depth": 0.389,
     "selfAngle": 3.693,
-    "spinSpeed": 1.135,
-    "orbitSpeed": 0.324
+    "spinSpeed": -2.52,
+    "orbitSpeed": 0.856
   },
   {
     "x": 163.8,
@@ -2084,8 +2084,8 @@
     "size": 33.1,
     "depth": 0.466,
     "selfAngle": 4.956,
-    "spinSpeed": -1.056,
-    "orbitSpeed": 2.397
+    "spinSpeed": 1.048,
+    "orbitSpeed": 0.782
   },
   {
     "x": 232.78,
@@ -2093,8 +2093,8 @@
     "size": 34.0,
     "depth": 0.283,
     "selfAngle": 5.339,
-    "spinSpeed": -1.026,
-    "orbitSpeed": 0.777
+    "spinSpeed": -1.931,
+    "orbitSpeed": 0.742
   },
   {
     "x": 337.33,
@@ -2102,8 +2102,8 @@
     "size": 30.5,
     "depth": 0.295,
     "selfAngle": 1.718,
-    "spinSpeed": 1.126,
-    "orbitSpeed": 1.977
+    "spinSpeed": -1.176,
+    "orbitSpeed": 1.103
   },
   {
     "x": 386.87,
@@ -2111,8 +2111,8 @@
     "size": 36.3,
     "depth": 0.5,
     "selfAngle": 3.93,
-    "spinSpeed": 0.971,
-    "orbitSpeed": 1.226
+    "spinSpeed": 6.257,
+    "orbitSpeed": 0.993
   },
   {
     "x": 444.92,
@@ -2120,8 +2120,8 @@
     "size": 43.9,
     "depth": 0.383,
     "selfAngle": 3.286,
-    "spinSpeed": 1.237,
-    "orbitSpeed": 0.924
+    "spinSpeed": -3.41,
+    "orbitSpeed": 0.67
   },
   {
     "x": 442.03,
@@ -2129,8 +2129,8 @@
     "size": 39.2,
     "depth": 0.334,
     "selfAngle": 3.577,
-    "spinSpeed": -1.083,
-    "orbitSpeed": 1.235
+    "spinSpeed": 2.188,
+    "orbitSpeed": 0.753
   },
   {
     "x": 495.86,
@@ -2138,8 +2138,8 @@
     "size": 29.0,
     "depth": 0.353,
     "selfAngle": 3.694,
-    "spinSpeed": -0.822,
-    "orbitSpeed": 3.143
+    "spinSpeed": -2.145,
+    "orbitSpeed": 0.615
   },
   {
     "x": 498.24,
@@ -2147,8 +2147,8 @@
     "size": 36.0,
     "depth": 0.378,
     "selfAngle": 1.835,
-    "spinSpeed": -1.237,
-    "orbitSpeed": 0.457
+    "spinSpeed": 1.015,
+    "orbitSpeed": 1.079
   },
   {
     "x": 540.45,
@@ -2156,8 +2156,8 @@
     "size": 29.4,
     "depth": 0.307,
     "selfAngle": 3.044,
-    "spinSpeed": 1.279,
-    "orbitSpeed": 0.975
+    "spinSpeed": -0.565,
+    "orbitSpeed": 1.342
   },
   {
     "x": 632.66,
@@ -2165,8 +2165,8 @@
     "size": 38.0,
     "depth": 0.659,
     "selfAngle": 3.511,
-    "spinSpeed": -1.071,
-    "orbitSpeed": 0.457
+    "spinSpeed": 1.862,
+    "orbitSpeed": 1.302
   },
   {
     "x": 583.68,
@@ -2174,8 +2174,8 @@
     "size": 47.6,
     "depth": 0.54,
     "selfAngle": 4.551,
-    "spinSpeed": 0.971,
-    "orbitSpeed": 0.724
+    "spinSpeed": 2.519,
+    "orbitSpeed": 1.334
   },
   {
     "x": 639.82,
@@ -2183,8 +2183,8 @@
     "size": 46.9,
     "depth": 0.709,
     "selfAngle": 1.046,
-    "spinSpeed": -1.149,
-    "orbitSpeed": 4.215
+    "spinSpeed": 0.958,
+    "orbitSpeed": 0.899
   },
   {
     "x": 551.22,
@@ -2192,8 +2192,8 @@
     "size": 40.8,
     "depth": 0.672,
     "selfAngle": 0.332,
-    "spinSpeed": -0.89,
-    "orbitSpeed": 0.475
+    "spinSpeed": -1.856,
+    "orbitSpeed": 0.616
   },
   {
     "x": 529.79,
@@ -2201,8 +2201,8 @@
     "size": 48.8,
     "depth": 0.596,
     "selfAngle": 0.92,
-    "spinSpeed": -0.907,
-    "orbitSpeed": 0.373
+    "spinSpeed": -0.721,
+    "orbitSpeed": 1.041
   },
   {
     "x": 427.22,
@@ -2210,8 +2210,8 @@
     "size": 49.7,
     "depth": 0.718,
     "selfAngle": 6.216,
-    "spinSpeed": 0.927,
-    "orbitSpeed": 1.01
+    "spinSpeed": -5.742,
+    "orbitSpeed": 1.168
   },
   {
     "x": 414.9,
@@ -2219,8 +2219,8 @@
     "size": 51.5,
     "depth": 0.742,
     "selfAngle": 1.014,
-    "spinSpeed": 0.957,
-    "orbitSpeed": 0.766
+    "spinSpeed": -2.245,
+    "orbitSpeed": 1.252
   },
   {
     "x": 384.82,
@@ -2228,8 +2228,8 @@
     "size": 34.9,
     "depth": 0.598,
     "selfAngle": 2.49,
-    "spinSpeed": 0.981,
-    "orbitSpeed": 0.299
+    "spinSpeed": 2.024,
+    "orbitSpeed": 0.845
   },
   {
     "x": 362.72,
@@ -2237,8 +2237,8 @@
     "size": 39.7,
     "depth": 0.522,
     "selfAngle": 3.492,
-    "spinSpeed": 1.137,
-    "orbitSpeed": 0.465
+    "spinSpeed": 2.67,
+    "orbitSpeed": 1.055
   },
   {
     "x": 273.87,
@@ -2246,8 +2246,8 @@
     "size": 41.1,
     "depth": 0.537,
     "selfAngle": 3.809,
-    "spinSpeed": 1.063,
-    "orbitSpeed": 2.377
+    "spinSpeed": 1.053,
+    "orbitSpeed": 0.911
   },
   {
     "x": 171.49,
@@ -2255,8 +2255,8 @@
     "size": 53.4,
     "depth": 0.721,
     "selfAngle": 2.365,
-    "spinSpeed": 0.942,
-    "orbitSpeed": 0.252
+    "spinSpeed": -3.129,
+    "orbitSpeed": 0.807
   },
   {
     "x": 147.44,
@@ -2264,8 +2264,8 @@
     "size": 34.4,
     "depth": 0.693,
     "selfAngle": 5.42,
-    "spinSpeed": -0.872,
-    "orbitSpeed": 2.734
+    "spinSpeed": 1.138,
+    "orbitSpeed": 0.905
   },
   {
     "x": 123.6,
@@ -2273,8 +2273,8 @@
     "size": 49.5,
     "depth": 0.698,
     "selfAngle": 1.094,
-    "spinSpeed": 1.298,
-    "orbitSpeed": 0.933
+    "spinSpeed": 3.247,
+    "orbitSpeed": 0.989
   },
   {
     "x": 114.91,
@@ -2282,8 +2282,8 @@
     "size": 37.3,
     "depth": 0.681,
     "selfAngle": 3.562,
-    "spinSpeed": 1.224,
-    "orbitSpeed": 0.797
+    "spinSpeed": -0.5,
+    "orbitSpeed": 1.026
   },
   {
     "x": 91.32,
@@ -2291,8 +2291,8 @@
     "size": 36.6,
     "depth": 0.729,
     "selfAngle": 5.987,
-    "spinSpeed": 0.949,
-    "orbitSpeed": 4.487
+    "spinSpeed": 2.472,
+    "orbitSpeed": 1.166
   },
   {
     "x": 147.89,
@@ -2300,8 +2300,8 @@
     "size": 49.3,
     "depth": 0.565,
     "selfAngle": 0.935,
-    "spinSpeed": 1.049,
-    "orbitSpeed": 4.421
+    "spinSpeed": 0.394,
+    "orbitSpeed": 0.601
   },
   {
     "x": 141.35,
@@ -2309,8 +2309,8 @@
     "size": 35.5,
     "depth": 0.763,
     "selfAngle": 3.694,
-    "spinSpeed": 0.865,
-    "orbitSpeed": 1.091
+    "spinSpeed": 0.528,
+    "orbitSpeed": 0.715
   },
   {
     "x": 154.07,
@@ -2318,8 +2318,8 @@
     "size": 41.4,
     "depth": 0.672,
     "selfAngle": 1.004,
-    "spinSpeed": 0.927,
-    "orbitSpeed": 0.991
+    "spinSpeed": 3.212,
+    "orbitSpeed": 0.982
   },
   {
     "x": 248.99,
@@ -2327,8 +2327,8 @@
     "size": 38.0,
     "depth": 0.628,
     "selfAngle": 5.028,
-    "spinSpeed": -0.875,
-    "orbitSpeed": 1.002
+    "spinSpeed": 2.334,
+    "orbitSpeed": 1.353
   },
   {
     "x": 312.93,
@@ -2336,8 +2336,8 @@
     "size": 47.7,
     "depth": 0.562,
     "selfAngle": 1.054,
-    "spinSpeed": 1.182,
-    "orbitSpeed": 2.369
+    "spinSpeed": -0.793,
+    "orbitSpeed": 0.704
   },
   {
     "x": 309.6,
@@ -2345,8 +2345,8 @@
     "size": 42.4,
     "depth": 0.691,
     "selfAngle": 3.293,
-    "spinSpeed": 1.025,
-    "orbitSpeed": 2.714
+    "spinSpeed": 0.645,
+    "orbitSpeed": 0.839
   },
   {
     "x": 340.8,
@@ -2354,8 +2354,8 @@
     "size": 43.9,
     "depth": 0.66,
     "selfAngle": 0.609,
-    "spinSpeed": 0.981,
-    "orbitSpeed": 0.34
+    "spinSpeed": 3.283,
+    "orbitSpeed": 1.299
   },
   {
     "x": 414.1,
@@ -2363,8 +2363,8 @@
     "size": 52.5,
     "depth": 0.598,
     "selfAngle": 4.164,
-    "spinSpeed": -0.936,
-    "orbitSpeed": 0.71
+    "spinSpeed": -0.87,
+    "orbitSpeed": 1.301
   },
   {
     "x": 523.18,
@@ -2372,8 +2372,8 @@
     "size": 45.5,
     "depth": 0.583,
     "selfAngle": 1.855,
-    "spinSpeed": -0.826,
-    "orbitSpeed": 2.156
+    "spinSpeed": 0.737,
+    "orbitSpeed": 0.776
   },
   {
     "x": 499.38,
@@ -2381,8 +2381,8 @@
     "size": 40.1,
     "depth": 0.555,
     "selfAngle": 1.635,
-    "spinSpeed": -0.916,
-    "orbitSpeed": 1.14
+    "spinSpeed": -0.111,
+    "orbitSpeed": 1.194
   },
   {
     "x": 598.47,
@@ -2390,8 +2390,8 @@
     "size": 36.8,
     "depth": 0.608,
     "selfAngle": 0.492,
-    "spinSpeed": -1.029,
-    "orbitSpeed": 1.204
+    "spinSpeed": 2.571,
+    "orbitSpeed": 0.725
   },
   {
     "x": 649.05,
@@ -2399,8 +2399,8 @@
     "size": 38.9,
     "depth": 0.742,
     "selfAngle": 0.964,
-    "spinSpeed": 1.285,
-    "orbitSpeed": 2.767
+    "spinSpeed": 0.805,
+    "orbitSpeed": 1.265
   },
   {
     "x": 591.62,
@@ -2408,8 +2408,8 @@
     "size": 46.4,
     "depth": 0.575,
     "selfAngle": 4.776,
-    "spinSpeed": 0.98,
-    "orbitSpeed": 3.189
+    "spinSpeed": 2.68,
+    "orbitSpeed": 0.718
   },
   {
     "x": 702.97,
@@ -2417,8 +2417,8 @@
     "size": 43.8,
     "depth": 0.928,
     "selfAngle": 5.3,
-    "spinSpeed": 1.151,
-    "orbitSpeed": 0.284
+    "spinSpeed": -0.268,
+    "orbitSpeed": 0.873
   },
   {
     "x": 664.63,
@@ -2426,8 +2426,8 @@
     "size": 54.3,
     "depth": 0.868,
     "selfAngle": 4.048,
-    "spinSpeed": 1.279,
-    "orbitSpeed": 3.816
+    "spinSpeed": 0.587,
+    "orbitSpeed": 0.855
   },
   {
     "x": 569.98,
@@ -2435,8 +2435,8 @@
     "size": 47.4,
     "depth": 0.846,
     "selfAngle": 5.842,
-    "spinSpeed": -1.095,
-    "orbitSpeed": 0.949
+    "spinSpeed": 1.076,
+    "orbitSpeed": 0.809
   },
   {
     "x": 505.68,
@@ -2444,8 +2444,8 @@
     "size": 48.7,
     "depth": 0.846,
     "selfAngle": 3.924,
-    "spinSpeed": -0.952,
-    "orbitSpeed": 1.736
+    "spinSpeed": -1.009,
+    "orbitSpeed": 0.654
   },
   {
     "x": 428.45,
@@ -2453,8 +2453,8 @@
     "size": 58.4,
     "depth": 0.792,
     "selfAngle": 0.488,
-    "spinSpeed": 0.931,
-    "orbitSpeed": 0.498
+    "spinSpeed": -6.58,
+    "orbitSpeed": 0.955
   },
   {
     "x": 398.26,
@@ -2462,8 +2462,8 @@
     "size": 62.7,
     "depth": 0.893,
     "selfAngle": 5.068,
-    "spinSpeed": 1.036,
-    "orbitSpeed": 1.86
+    "spinSpeed": 1.069,
+    "orbitSpeed": 1.156
   },
   {
     "x": 147.26,
@@ -2471,8 +2471,8 @@
     "size": 63.9,
     "depth": 0.856,
     "selfAngle": 3.799,
-    "spinSpeed": 0.983,
-    "orbitSpeed": 1.806
+    "spinSpeed": -3.027,
+    "orbitSpeed": 1.38
   },
   {
     "x": 140.22,
@@ -2480,8 +2480,8 @@
     "size": 55.0,
     "depth": 0.833,
     "selfAngle": 1.757,
-    "spinSpeed": 1.039,
-    "orbitSpeed": 0.916
+    "spinSpeed": -0.151,
+    "orbitSpeed": 1.288
   },
   {
     "x": 43.41,
@@ -2489,8 +2489,8 @@
     "size": 43.0,
     "depth": 0.936,
     "selfAngle": 0.525,
-    "spinSpeed": -0.938,
-    "orbitSpeed": 0.728
+    "spinSpeed": -3.104,
+    "orbitSpeed": 1.308
   },
   {
     "x": 23.62,
@@ -2498,8 +2498,8 @@
     "size": 56.5,
     "depth": 0.975,
     "selfAngle": 3.634,
-    "spinSpeed": 0.822,
-    "orbitSpeed": 0.316
+    "spinSpeed": -5.42,
+    "orbitSpeed": 1.041
   },
   {
     "x": 65.4,
@@ -2507,8 +2507,8 @@
     "size": 56.1,
     "depth": 0.832,
     "selfAngle": 0.671,
-    "spinSpeed": -1.215,
-    "orbitSpeed": 3.68
+    "spinSpeed": 0.9,
+    "orbitSpeed": 0.665
   },
   {
     "x": 176.79,
@@ -2516,8 +2516,8 @@
     "size": 45.0,
     "depth": 0.827,
     "selfAngle": 4.86,
-    "spinSpeed": 1.025,
-    "orbitSpeed": 1.282
+    "spinSpeed": -2.435,
+    "orbitSpeed": 1.017
   },
   {
     "x": 245.6,
@@ -2525,8 +2525,8 @@
     "size": 60.5,
     "depth": 0.811,
     "selfAngle": 4.721,
-    "spinSpeed": 0.872,
-    "orbitSpeed": 1.957
+    "spinSpeed": 0.297,
+    "orbitSpeed": 1.08
   },
   {
     "x": 226.33,
@@ -2534,8 +2534,8 @@
     "size": 48.7,
     "depth": 0.989,
     "selfAngle": 5.331,
-    "spinSpeed": 1.259,
-    "orbitSpeed": 0.243
+    "spinSpeed": 1.056,
+    "orbitSpeed": 0.911
   },
   {
     "x": 456.84,
@@ -2543,8 +2543,8 @@
     "size": 55.3,
     "depth": 0.796,
     "selfAngle": 0.439,
-    "spinSpeed": -0.947,
-    "orbitSpeed": 1.26
+    "spinSpeed": 1.853,
+    "orbitSpeed": 1.148
   },
   {
     "x": 591.77,
@@ -2552,8 +2552,8 @@
     "size": 46.8,
     "depth": 0.915,
     "selfAngle": 6.26,
-    "spinSpeed": -1.181,
-    "orbitSpeed": 2.17
+    "spinSpeed": -4.215,
+    "orbitSpeed": 1.156
   },
   {
     "x": 577.3,
@@ -2561,8 +2561,8 @@
     "size": 46.1,
     "depth": 0.842,
     "selfAngle": 1.779,
-    "spinSpeed": -0.878,
-    "orbitSpeed": 0.432
+    "spinSpeed": 0.81,
+    "orbitSpeed": 0.727
   },
   {
     "x": 645.16,
@@ -2570,8 +2570,8 @@
     "size": 55.5,
     "depth": 0.895,
     "selfAngle": 3.78,
-    "spinSpeed": -1.299,
-    "orbitSpeed": 0.907
+    "spinSpeed": 2.491,
+    "orbitSpeed": 1.226
   },
   {
     "x": 499.54,
@@ -2579,8 +2579,8 @@
     "size": 14.0,
     "depth": 0.145,
     "selfAngle": 4.552,
-    "spinSpeed": 0.944,
-    "orbitSpeed": 2.051
+    "spinSpeed": 3.332,
+    "orbitSpeed": 0.707
   },
   {
     "x": 567.07,
@@ -2588,8 +2588,8 @@
     "size": 27.6,
     "depth": 0.422,
     "selfAngle": 0.67,
-    "spinSpeed": -1.164,
-    "orbitSpeed": 2.152
+    "spinSpeed": 1.803,
+    "orbitSpeed": 0.71
   },
   {
     "x": 490.99,
@@ -2597,8 +2597,8 @@
     "size": 23.6,
     "depth": 0.777,
     "selfAngle": 0.719,
-    "spinSpeed": -1.142,
-    "orbitSpeed": 1.889
+    "spinSpeed": 2.386,
+    "orbitSpeed": 1.053
   },
   {
     "x": 461.85,
@@ -2606,8 +2606,8 @@
     "size": 34.5,
     "depth": 0.555,
     "selfAngle": 0.559,
-    "spinSpeed": 1.099,
-    "orbitSpeed": 0.806
+    "spinSpeed": 2.865,
+    "orbitSpeed": 0.848
   },
   {
     "x": 296.3,
@@ -2615,8 +2615,8 @@
     "size": 26.9,
     "depth": 0.218,
     "selfAngle": 3.165,
-    "spinSpeed": 0.937,
-    "orbitSpeed": 0.423
+    "spinSpeed": 1.004,
+    "orbitSpeed": 0.838
   },
   {
     "x": 247.08,
@@ -2624,8 +2624,8 @@
     "size": 25.2,
     "depth": 0.542,
     "selfAngle": 2.186,
-    "spinSpeed": 0.885,
-    "orbitSpeed": 1.662
+    "spinSpeed": -0.891,
+    "orbitSpeed": 1.173
   },
   {
     "x": 141.79,
@@ -2633,8 +2633,8 @@
     "size": 35.5,
     "depth": 0.553,
     "selfAngle": 1.454,
-    "spinSpeed": 0.998,
-    "orbitSpeed": 1.095
+    "spinSpeed": 4.123,
+    "orbitSpeed": 0.937
   },
   {
     "x": 115.42,
@@ -2642,8 +2642,8 @@
     "size": 37.0,
     "depth": 0.605,
     "selfAngle": 6.032,
-    "spinSpeed": -0.991,
-    "orbitSpeed": 2.747
+    "spinSpeed": -0.37,
+    "orbitSpeed": 1.384
   },
   {
     "x": 103.26,
@@ -2651,8 +2651,8 @@
     "size": 31.1,
     "depth": 0.845,
     "selfAngle": 0.129,
-    "spinSpeed": -0.997,
-    "orbitSpeed": 1.093
+    "spinSpeed": -1.003,
+    "orbitSpeed": 1.277
   },
   {
     "x": 293.63,
@@ -2660,8 +2660,8 @@
     "size": 24.2,
     "depth": 0.068,
     "selfAngle": 4.23,
-    "spinSpeed": -0.975,
-    "orbitSpeed": 1.114
+    "spinSpeed": 3.347,
+    "orbitSpeed": 0.907
   },
   {
     "x": 295.49,
@@ -2669,8 +2669,8 @@
     "size": 44.6,
     "depth": 0.329,
     "selfAngle": 4.325,
-    "spinSpeed": 0.842,
-    "orbitSpeed": 2.115
+    "spinSpeed": 1.033,
+    "orbitSpeed": 0.849
   },
   {
     "x": 456.81,
@@ -2678,8 +2678,8 @@
     "size": 34.3,
     "depth": 0.424,
     "selfAngle": 0.253,
-    "spinSpeed": -1.064,
-    "orbitSpeed": 0.261
+    "spinSpeed": 1.093,
+    "orbitSpeed": 1.283
   },
   {
     "x": 506.98,
@@ -2687,8 +2687,8 @@
     "size": 26.1,
     "depth": 0.544,
     "selfAngle": 3.718,
-    "spinSpeed": -1.234,
-    "orbitSpeed": 0.454
+    "spinSpeed": 4.05,
+    "orbitSpeed": 0.871
   },
   {
     "x": 709.28,
@@ -2696,7 +2696,7 @@
     "size": 25.3,
     "depth": 0.982,
     "selfAngle": 0.396,
-    "spinSpeed": -1.167,
-    "orbitSpeed": 0.376
+    "spinSpeed": 0.811,
+    "orbitSpeed": 1.249
   }
 ]
