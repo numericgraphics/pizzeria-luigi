@@ -113,7 +113,7 @@ export default function HeaderShader() {
       // Scale star positions from SVG space to canvas pixel space
       const w = canvas.width
       const h = canvas.height
-      const scale = Math.max(w, h) / SVG_SIZE
+      const scale = Math.max(w, h) / SVG_SIZE * 1.1
       const offsetX = (w - SVG_SIZE * scale) / 2
       const offsetY = (h - SVG_SIZE * scale) / 2
 
@@ -124,7 +124,7 @@ export default function HeaderShader() {
         SVG_SIZE / 2 * scale + offsetY
       )
       gl.uniform1f(uRotation, rotation)
-      gl.uniform1f(uAlpha, 0.75)
+      gl.uniform1f(uAlpha, 0.55)
 
       // Upload scaled positions per frame (small array, negligible cost)
       const scaledPositions = new Float32Array(positions.length)
