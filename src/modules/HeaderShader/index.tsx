@@ -6,8 +6,9 @@ import vertexShaderSource from './shader.vert'
 import fragmentShaderSource from './shader.frag'
 import './styles.css'
 
-// SVG viewBox dimensions
 const SVG_SIZE = 734.08
+
+type Star = { x: number; y: number; size: number; depth: number; selfAngle: number; spinSpeed: number }
 
 function compileShader(gl: WebGLRenderingContext, type: number, source: string): WebGLShader | null {
   const shader = gl.createShader(type)
@@ -35,6 +36,13 @@ function createProgram(gl: WebGLRenderingContext, vert: WebGLShader, frag: WebGL
   return program
 }
 
+function makeBuffer(gl: WebGLRenderingContext, data: Float32Array): WebGLBuffer {
+  const buf = gl.createBuffer()!
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf)
+  gl.bufferData(gl.ARRAY_BUFFER, data, gl.STATIC_DRAW)
+  return buf
+}
+
 export default function HeaderShader() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
@@ -45,7 +53,6 @@ export default function HeaderShader() {
     const gl = canvas.getContext('webgl', { alpha: true, antialias: true, premultipliedAlpha: false })
     if (!gl) return
 
-    // Compile shaders
     const vert = compileShader(gl, gl.VERTEX_SHADER, vertexShaderSource)
     const frag = compileShader(gl, gl.FRAGMENT_SHADER, fragmentShaderSource)
     if (!vert || !frag) return
@@ -53,98 +60,108 @@ export default function HeaderShader() {
     const program = createProgram(gl, vert, frag)
     if (!program) return
 
-    // Attribute/uniform locations
-    const aPosition = gl.getAttribLocation(program, 'a_position')
-    const aSize = gl.getAttribLocation(program, 'a_size')
+    // Attribute locations
+    const aPosition   = gl.getAttribLocation(program, 'a_position')
+    const aSize       = gl.getAttribLocation(program, 'a_size')
+    const aSelfAngle  = gl.getAttribLocation(program, 'a_selfAngle')
+    const aSpinSpeed  = gl.getAttribLocation(program, 'a_spinSpeed')
+    const aDepth      = gl.getAttribLocation(program, 'a_depth')
+
+    // Uniform locations
     const uResolution = gl.getUniformLocation(program, 'u_resolution')
-    const uCenter = gl.getUniformLocation(program, 'u_center')
-    const uRotation = gl.getUniformLocation(program, 'u_rotation')
-    const uAlpha = gl.getUniformLocation(program, 'u_alpha')
+    const uCenter     = gl.getUniformLocation(program, 'u_center')
+    const uRotation   = gl.getUniformLocation(program, 'u_rotation')
 
-    // Build geometry from stars.json — scale from SVG space to canvas space
-    const positions: number[] = []
-    const sizes: number[] = []
+    const stars = starsData as Star[]
+    const count = stars.length
 
-    const stars = starsData as Array<{ x: number; y: number; size: number }>
+    // Static attribute arrays (in SVG space — scaled each frame for positions)
+    const svgPositions  = new Float32Array(stars.flatMap(s => [s.x, s.y]))
+    const svgSizes      = new Float32Array(stars.map(s => s.size))
+    const selfAngles    = new Float32Array(stars.map(s => s.selfAngle))
+    const spinSpeeds    = new Float32Array(stars.map(s => s.spinSpeed))
+    const depths        = new Float32Array(stars.map(s => s.depth))
 
-    for (const star of stars) {
-      positions.push(star.x, star.y)
-      sizes.push(star.size)
+    // Static buffers (never change)
+    const selfAngleBuf = makeBuffer(gl, selfAngles)
+    const spinSpeedBuf = makeBuffer(gl, spinSpeeds)
+    const depthBuf     = makeBuffer(gl, depths)
+
+    // Dynamic buffers (positions/sizes scaled per frame)
+    const posBuf  = gl.createBuffer()!
+    const sizeBuf = gl.createBuffer()!
+
+    const bindAttr = (buf: WebGLBuffer, loc: number, size: number) => {
+      gl.bindBuffer(gl.ARRAY_BUFFER, buf)
+      gl.enableVertexAttribArray(loc)
+      gl.vertexAttribPointer(loc, size, gl.FLOAT, false, 0, 0)
     }
 
-    const posBuffer = gl.createBuffer()
-    gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer)
-    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW)
-
-    const sizeBuffer = gl.createBuffer()
-    gl.bindBuffer(gl.ARRAY_BUFFER, sizeBuffer)
-    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(sizes), gl.STATIC_DRAW)
-
-    const starCount = stars.length
-
-    // Resize canvas to match its CSS display size
+    // Resize
     const resize = () => {
       const rect = canvas.getBoundingClientRect()
-      canvas.width = rect.width * window.devicePixelRatio
+      canvas.width  = rect.width  * window.devicePixelRatio
       canvas.height = rect.height * window.devicePixelRatio
       gl.viewport(0, 0, canvas.width, canvas.height)
     }
-
     resize()
     const ro = new ResizeObserver(resize)
     ro.observe(canvas)
 
-    // Animation loop
     let rafId: number
     const startTime = performance.now()
 
     const render = () => {
-      const elapsed = (performance.now() - startTime) / 1000
-      const rotation = elapsed * 0.35 // rad/s — visible rotation
+      const elapsed  = (performance.now() - startTime) / 1000
+      // Orbit speed: 0.3 rad/s = ~1 full turn per 21s
+      const rotation = elapsed * 0.3
 
-      gl.clearColor(0, 0, 0, 0)
-      gl.clear(gl.COLOR_BUFFER_BIT)
-
-      gl.enable(gl.BLEND)
-      gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA)
-
-      gl.useProgram(program)
-
-      // Scale star positions from SVG space to canvas pixel space
       const w = canvas.width
       const h = canvas.height
-      const scale = Math.max(w, h) / SVG_SIZE * 1.4
+
+      // Scale SVG space to canvas: fill the wider dimension, center on canvas
+      const scale   = Math.max(w, h) / SVG_SIZE * 1.35
       const offsetX = (w - SVG_SIZE * scale) / 2
       const offsetY = (h - SVG_SIZE * scale) / 2
 
-      // Upload uniforms
+      gl.clearColor(0, 0, 0, 0)
+      gl.clear(gl.COLOR_BUFFER_BIT)
+      gl.enable(gl.BLEND)
+      gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA)
+      gl.useProgram(program)
+
+      // Uniforms
       gl.uniform2f(uResolution, w, h)
       gl.uniform2f(uCenter,
         SVG_SIZE / 2 * scale + offsetX,
         SVG_SIZE / 2 * scale + offsetY
       )
       gl.uniform1f(uRotation, rotation)
-      gl.uniform1f(uAlpha, 0.5)
 
-      // Upload scaled positions per frame (small array, negligible cost)
-      const scaledPositions = new Float32Array(positions.length)
-      for (let i = 0; i < positions.length; i += 2) {
-        scaledPositions[i]     = positions[i]     * scale + offsetX
-        scaledPositions[i + 1] = positions[i + 1] * scale + offsetY
+      // Upload scaled positions
+      const scaledPos = new Float32Array(count * 2)
+      for (let i = 0; i < count; i++) {
+        scaledPos[i * 2]     = svgPositions[i * 2]     * scale + offsetX
+        scaledPos[i * 2 + 1] = svgPositions[i * 2 + 1] * scale + offsetY
       }
-      gl.bindBuffer(gl.ARRAY_BUFFER, posBuffer)
-      gl.bufferData(gl.ARRAY_BUFFER, scaledPositions, gl.DYNAMIC_DRAW)
+      gl.bindBuffer(gl.ARRAY_BUFFER, posBuf)
+      gl.bufferData(gl.ARRAY_BUFFER, scaledPos, gl.DYNAMIC_DRAW)
       gl.enableVertexAttribArray(aPosition)
       gl.vertexAttribPointer(aPosition, 2, gl.FLOAT, false, 0, 0)
 
-      // Scaled sizes
-      const scaledSizes = new Float32Array(sizes.map(s => s * scale))
-      gl.bindBuffer(gl.ARRAY_BUFFER, sizeBuffer)
+      // Upload scaled sizes
+      const scaledSizes = new Float32Array(svgSizes.map(s => s * scale))
+      gl.bindBuffer(gl.ARRAY_BUFFER, sizeBuf)
       gl.bufferData(gl.ARRAY_BUFFER, scaledSizes, gl.DYNAMIC_DRAW)
       gl.enableVertexAttribArray(aSize)
       gl.vertexAttribPointer(aSize, 1, gl.FLOAT, false, 0, 0)
 
-      gl.drawArrays(gl.POINTS, 0, starCount)
+      // Static attributes
+      bindAttr(selfAngleBuf, aSelfAngle, 1)
+      bindAttr(spinSpeedBuf, aSpinSpeed, 1)
+      bindAttr(depthBuf,     aDepth,     1)
+
+      gl.drawArrays(gl.POINTS, 0, count)
 
       rafId = requestAnimationFrame(render)
     }
@@ -157,8 +174,11 @@ export default function HeaderShader() {
       gl.deleteProgram(program)
       gl.deleteShader(vert)
       gl.deleteShader(frag)
-      gl.deleteBuffer(posBuffer)
-      gl.deleteBuffer(sizeBuffer)
+      gl.deleteBuffer(posBuf)
+      gl.deleteBuffer(sizeBuf)
+      gl.deleteBuffer(selfAngleBuf)
+      gl.deleteBuffer(spinSpeedBuf)
+      gl.deleteBuffer(depthBuf)
     }
   }, [])
 

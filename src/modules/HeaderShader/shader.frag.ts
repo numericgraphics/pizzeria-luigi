@@ -1,40 +1,64 @@
 const fragmentShaderSource = `
   precision mediump float;
 
-  uniform float u_alpha;
+  varying float v_angle;
+  varying float v_depth;
 
-  // 5-pointed star SDF (Inigo Quilez)
-  // p: coord in [-0.5, 0.5], r: outer radius, rf: inner/outer ratio
-  float sdStar5(vec2 p, float r, float rf) {
-    const float PI = 3.14159265;
-    const float an = PI / 5.0;          // 36 deg — angle between points
-    const float he = 0.7265425947;      // tan(an*2) normalisation factor
+  // Check if point p is inside the 5-pointed star polygon
+  // Star defined by 5 outer vertices at radius R and 5 inner at radius r
+  // Uses cross-product sign test against each of the 10 edges
+  float starAlpha(vec2 p) {
+    const float PI2 = 6.28318530;
+    const float R = 0.46;   // outer radius
+    const float r = 0.19;   // inner radius
+    const int N = 5;
 
-    // Fold into one sector
-    float bn = mod(atan(p.x, p.y), 2.0 * an) - an;
-    p = length(p) * vec2(sin(bn), cos(bn));
+    // Rotate p by v_angle (self-rotation per star)
+    float ca = cos(v_angle);
+    float sa = sin(v_angle);
+    p = vec2(p.x * ca - p.y * sa, p.x * sa + p.y * ca);
 
-    // Distance to the edge segment
-    p -= r * vec2(sin(an), cos(an));
-    float q = p.y + he * p.x;
-    p += vec2(-he, 1.0) * clamp(q / (he * he + 1.0), 0.0, r);
-    return length(p) * sign(p.x);
+    // Discard outside bounding circle fast path
+    if (length(p) > R + 0.02) return 0.0;
+
+    // Build the 10 vertices of the star (alternating outer/inner)
+    // and do a winding-number / cross-product inside test
+    // offset by -PI/2 so first point faces up
+    float offset = -PI2 * 0.25;
+
+    bool inside = true;
+    for (int i = 0; i < 10; i++) {
+      float a0 = offset + float(i)     * PI2 / 10.0;
+      float a1 = offset + float(i + 1) * PI2 / 10.0;
+      float rad0 = (mod(float(i), 2.0) < 1.0) ? R : r;
+      float rad1 = (mod(float(i + 1), 2.0) < 1.0) ? R : r;
+      vec2 v0 = vec2(cos(a0), sin(a0)) * rad0;
+      vec2 v1 = vec2(cos(a1), sin(a1)) * rad1;
+      // Cross product to determine side
+      vec2 edge = v1 - v0;
+      vec2 toP  = p  - v0;
+      if (edge.x * toP.y - edge.y * toP.x < 0.0) {
+        inside = false;
+      }
+    }
+
+    if (!inside) return 0.0;
+
+    // Soft edge: distance to outer boundary for slight anti-alias
+    float d = R - length(p);
+    return smoothstep(0.0, 0.04, d);
   }
 
   void main() {
     vec2 coord = gl_PointCoord - vec2(0.5);
+    float alpha = starAlpha(coord);
+    if (alpha < 0.01) discard;
 
-    // 5-pointed star: outer radius 0.47, inner/outer ratio 0.4
-    float d = sdStar5(coord, 0.47, 0.4);
+    // Color: center stars lighter, outer stars darker gray (matches flyer)
+    float gray = mix(0.88, 0.38, v_depth);
+    vec3 color = vec3(gray);
 
-    // Crisp edge, 1px anti-alias
-    float shape = 1.0 - smoothstep(-0.01, 0.025, d);
-
-    if (shape < 0.01) discard;
-
-    // Silver/gray — matches the flyer palette
-    vec3 color = vec3(0.70, 0.68, 0.64);
-    gl_FragColor = vec4(color, shape * u_alpha);
+    gl_FragColor = vec4(color, alpha * mix(0.35, 0.85, v_depth));
   }
 `
 
