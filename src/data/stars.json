@@ -1,802 +1,1602 @@
 [
   {
-    "x": 473.98,
-    "y": 355.69,
-    "size": 27.8,
-    "depth": 0.066,
-    "selfAngle": 0.455,
-    "spinSpeed": 1.122
+    "x": 463.39,
+    "y": 372.42,
+    "size": 19.3,
+    "depth": 0.006,
+    "selfAngle": 1.402,
+    "spinSpeed": 1.241
   },
   {
-    "x": 464.97,
-    "y": 398.64,
-    "size": 26.1,
-    "depth": 0.049,
-    "selfAngle": 0.236,
-    "spinSpeed": 1.06
+    "x": 461.07,
+    "y": 401.71,
+    "size": 21.1,
+    "depth": 0.02,
+    "selfAngle": 0.187,
+    "spinSpeed": 0.886
   },
   {
-    "x": 457.38,
-    "y": 419.64,
-    "size": 25.1,
-    "depth": 0.055,
-    "selfAngle": 5.195,
-    "spinSpeed": 0.874
+    "x": 483.81,
+    "y": 421.09,
+    "size": 24.6,
+    "depth": 0.13,
+    "selfAngle": 4.404,
+    "spinSpeed": -0.876
   },
   {
-    "x": 436.68,
-    "y": 478.43,
-    "size": 31.4,
-    "depth": 0.156,
-    "selfAngle": 3.626,
-    "spinSpeed": 1.038
+    "x": 483.49,
+    "y": 451.01,
+    "size": 16.1,
+    "depth": 0.187,
+    "selfAngle": 5.061,
+    "spinSpeed": -0.972
   },
   {
-    "x": 338.2,
-    "y": 465.22,
-    "size": 30.3,
-    "depth": 0.047,
-    "selfAngle": 1.82,
-    "spinSpeed": 0.887
+    "x": 488.61,
+    "y": 459.0,
+    "size": 20.0,
+    "depth": 0.221,
+    "selfAngle": 0.582,
+    "spinSpeed": 0.987
   },
   {
-    "x": 348.27,
-    "y": 480.93,
-    "size": 29.8,
-    "depth": 0.096,
-    "selfAngle": 1.136,
-    "spinSpeed": 1.149
+    "x": 434.27,
+    "y": 455.2,
+    "size": 16.5,
+    "depth": 0.061,
+    "selfAngle": 2.885,
+    "spinSpeed": 1.478
   },
   {
-    "x": 276.47,
-    "y": 443.64,
-    "size": 26.6,
-    "depth": 0.108,
-    "selfAngle": 0.395,
-    "spinSpeed": 0.836
+    "x": 421.76,
+    "y": 482.89,
+    "size": 26.0,
+    "depth": 0.127,
+    "selfAngle": 3.884,
+    "spinSpeed": -1.162
   },
   {
-    "x": 254.15,
-    "y": 439.26,
-    "size": 25.1,
-    "depth": 0.166,
-    "selfAngle": 1.974,
-    "spinSpeed": 1.151
+    "x": 378.21,
+    "y": 464.15,
+    "size": 18.7,
+    "depth": 0.011,
+    "selfAngle": 1.817,
+    "spinSpeed": 1.384
   },
   {
-    "x": 252.1,
-    "y": 370.27,
-    "size": 29.5,
-    "depth": 0.094,
-    "selfAngle": 4.392,
-    "spinSpeed": 0.946
+    "x": 349.83,
+    "y": 483.58,
+    "size": 21.4,
+    "depth": 0.088,
+    "selfAngle": 5.238,
+    "spinSpeed": 0.996
   },
   {
-    "x": 252.66,
-    "y": 313.56,
-    "size": 30.5,
-    "depth": 0.137,
-    "selfAngle": 4.583,
-    "spinSpeed": 0.973
+    "x": 358.15,
+    "y": 477.7,
+    "size": 27.2,
+    "depth": 0.062,
+    "selfAngle": 4.07,
+    "spinSpeed": 1.127
   },
   {
-    "x": 316.52,
-    "y": 273.96,
-    "size": 25.0,
-    "depth": 0.06,
-    "selfAngle": 4.757,
-    "spinSpeed": 0.891
+    "x": 331.87,
+    "y": 484.63,
+    "size": 19.2,
+    "depth": 0.107,
+    "selfAngle": 5.811,
+    "spinSpeed": 1.248
   },
   {
-    "x": 327.4,
-    "y": 273.1,
-    "size": 28.0,
-    "depth": 0.045,
-    "selfAngle": 4.804,
-    "spinSpeed": 1.144
+    "x": 273.04,
+    "y": 472.89,
+    "size": 18.7,
+    "depth": 0.179,
+    "selfAngle": 0.202,
+    "spinSpeed": -1.021
   },
   {
-    "x": 392.88,
-    "y": 254.28,
-    "size": 28.3,
-    "depth": 0.097,
-    "selfAngle": 3.735,
-    "spinSpeed": 1.148
+    "x": 281.0,
+    "y": 489.65,
+    "size": 22.8,
+    "depth": 0.211,
+    "selfAngle": 4.509,
+    "spinSpeed": 1.224
   },
   {
-    "x": 417.91,
-    "y": 234.47,
-    "size": 31.3,
-    "depth": 0.196,
-    "selfAngle": 2.979,
-    "spinSpeed": 1.198
-  },
-  {
-    "x": 434.37,
-    "y": 249.94,
-    "size": 27.8,
-    "depth": 0.17,
-    "selfAngle": 6.24,
-    "spinSpeed": 1.293
-  },
-  {
-    "x": 470.45,
-    "y": 307.57,
-    "size": 28.0,
-    "depth": 0.111,
-    "selfAngle": 0.142,
-    "spinSpeed": 1.077
-  },
-  {
-    "x": 530.76,
-    "y": 333.99,
-    "size": 28.9,
-    "depth": 0.291,
-    "selfAngle": 4.827,
-    "spinSpeed": -0.878
-  },
-  {
-    "x": 548.07,
-    "y": 396.76,
-    "size": 41.9,
-    "depth": 0.353,
-    "selfAngle": 0.506,
-    "spinSpeed": -1.07
-  },
-  {
-    "x": 535.57,
-    "y": 497.3,
-    "size": 41.1,
-    "depth": 0.464,
-    "selfAngle": 5.429,
-    "spinSpeed": -0.967
-  },
-  {
-    "x": 481.06,
-    "y": 508.29,
-    "size": 42.1,
-    "depth": 0.345,
-    "selfAngle": 6.018,
-    "spinSpeed": -0.891
-  },
-  {
-    "x": 451.7,
-    "y": 518.96,
-    "size": 31.7,
-    "depth": 0.317,
-    "selfAngle": 3.047,
-    "spinSpeed": -1.153
-  },
-  {
-    "x": 389.77,
-    "y": 525.66,
-    "size": 34.7,
-    "depth": 0.265,
-    "selfAngle": 2.32,
-    "spinSpeed": -1.14
-  },
-  {
-    "x": 255.64,
-    "y": 534.86,
-    "size": 36.2,
-    "depth": 0.42,
-    "selfAngle": 3.88,
-    "spinSpeed": -1.206
-  },
-  {
-    "x": 291.52,
-    "y": 567.24,
-    "size": 40.5,
-    "depth": 0.468,
-    "selfAngle": 5.495,
-    "spinSpeed": -1.279
-  },
-  {
-    "x": 225.52,
-    "y": 484.53,
-    "size": 29.7,
-    "depth": 0.354,
-    "selfAngle": 3.985,
-    "spinSpeed": -0.837
-  },
-  {
-    "x": 222.14,
-    "y": 460.68,
-    "size": 30.6,
-    "depth": 0.311,
-    "selfAngle": 2.137,
-    "spinSpeed": -0.832
-  },
-  {
-    "x": 205.51,
-    "y": 416.98,
-    "size": 29.6,
-    "depth": 0.298,
-    "selfAngle": 2.285,
-    "spinSpeed": -0.815
-  },
-  {
-    "x": 198.08,
-    "y": 266.04,
-    "size": 30.4,
-    "depth": 0.403,
-    "selfAngle": 1.585,
-    "spinSpeed": -1.008
-  },
-  {
-    "x": 224.07,
-    "y": 280.01,
-    "size": 41.6,
-    "depth": 0.292,
-    "selfAngle": 6.24,
-    "spinSpeed": -1.08
-  },
-  {
-    "x": 268.67,
-    "y": 234.38,
-    "size": 29.6,
-    "depth": 0.284,
-    "selfAngle": 2.153,
-    "spinSpeed": -0.959
-  },
-  {
-    "x": 347.26,
-    "y": 198.51,
-    "size": 28.4,
-    "depth": 0.301,
-    "selfAngle": 5.975,
-    "spinSpeed": -1.117
-  },
-  {
-    "x": 326.51,
-    "y": 178.76,
-    "size": 28.4,
-    "depth": 0.387,
-    "selfAngle": 3.318,
-    "spinSpeed": -1.387
-  },
-  {
-    "x": 469.42,
-    "y": 193.17,
-    "size": 32.2,
-    "depth": 0.422,
-    "selfAngle": 2.304,
-    "spinSpeed": -0.9
-  },
-  {
-    "x": 503.6,
-    "y": 232.14,
-    "size": 40.5,
-    "depth": 0.385,
-    "selfAngle": 2.071,
-    "spinSpeed": -0.934
-  },
-  {
-    "x": 565.14,
-    "y": 273.44,
-    "size": 41.6,
-    "depth": 0.487,
-    "selfAngle": 5.065,
-    "spinSpeed": -1.291
-  },
-  {
-    "x": 538.13,
-    "y": 337.63,
-    "size": 36.3,
-    "depth": 0.315,
-    "selfAngle": 2.234,
-    "spinSpeed": -0.817
-  },
-  {
-    "x": 605.31,
-    "y": 297.69,
-    "size": 40.7,
-    "depth": 0.597,
-    "selfAngle": 4.351,
-    "spinSpeed": 1.374
-  },
-  {
-    "x": 648.62,
-    "y": 440.12,
-    "size": 53.8,
-    "depth": 0.758,
-    "selfAngle": 6.0,
-    "spinSpeed": 1.019
-  },
-  {
-    "x": 592.13,
-    "y": 463.13,
-    "size": 39.5,
-    "depth": 0.584,
-    "selfAngle": 1.284,
-    "spinSpeed": 1.174
-  },
-  {
-    "x": 496.91,
-    "y": 620.31,
-    "size": 44.6,
-    "depth": 0.734,
-    "selfAngle": 4.103,
-    "spinSpeed": 1.28
-  },
-  {
-    "x": 538.14,
-    "y": 579.69,
-    "size": 52.4,
-    "depth": 0.69,
-    "selfAngle": 4.915,
-    "spinSpeed": 1.25
-  },
-  {
-    "x": 404.57,
-    "y": 605.71,
-    "size": 50.2,
-    "depth": 0.572,
-    "selfAngle": 2.089,
-    "spinSpeed": 1.28
-  },
-  {
-    "x": 261.41,
-    "y": 599.94,
-    "size": 43.2,
-    "depth": 0.625,
-    "selfAngle": 5.949,
-    "spinSpeed": 1.235
-  },
-  {
-    "x": 312.63,
-    "y": 599.0,
-    "size": 38.7,
-    "depth": 0.559,
-    "selfAngle": 5.685,
-    "spinSpeed": 1.284
-  },
-  {
-    "x": 230.59,
-    "y": 615.8,
-    "size": 53.6,
-    "depth": 0.731,
-    "selfAngle": 4.13,
-    "spinSpeed": 1.01
-  },
-  {
-    "x": 162.71,
-    "y": 490.08,
-    "size": 36.3,
-    "depth": 0.56,
-    "selfAngle": 6.1,
-    "spinSpeed": 1.19
-  },
-  {
-    "x": 86.86,
-    "y": 444.48,
-    "size": 43.8,
-    "depth": 0.757,
-    "selfAngle": 5.477,
+    "x": 246.01,
+    "y": 455.43,
+    "size": 21.5,
+    "depth": 0.211,
+    "selfAngle": 1.663,
     "spinSpeed": 1.296
   },
   {
-    "x": 124.36,
-    "y": 409.54,
-    "size": 41.3,
-    "depth": 0.59,
-    "selfAngle": 1.511,
-    "spinSpeed": 1.152
+    "x": 237.04,
+    "y": 418.53,
+    "size": 21.1,
+    "depth": 0.172,
+    "selfAngle": 3.665,
+    "spinSpeed": -0.875
   },
   {
-    "x": 112.36,
-    "y": 330.83,
-    "size": 38.4,
-    "depth": 0.631,
-    "selfAngle": 5.718,
-    "spinSpeed": 1.012
+    "x": 241.47,
+    "y": 366.71,
+    "size": 17.1,
+    "depth": 0.118,
+    "selfAngle": 0.296,
+    "spinSpeed": 0.822
   },
   {
-    "x": 138.09,
-    "y": 227.9,
-    "size": 52.3,
-    "depth": 0.671,
-    "selfAngle": 2.643,
-    "spinSpeed": 1.351
+    "x": 232.47,
+    "y": 385.46,
+    "size": 23.2,
+    "depth": 0.157,
+    "selfAngle": 2.416,
+    "spinSpeed": -1.123
   },
   {
-    "x": 193.98,
-    "y": 166.92,
-    "size": 45.4,
-    "depth": 0.659,
-    "selfAngle": 0.118,
-    "spinSpeed": 1.064
+    "x": 231.12,
+    "y": 312.0,
+    "size": 16.1,
+    "depth": 0.199,
+    "selfAngle": 4.526,
+    "spinSpeed": -1.315
   },
   {
-    "x": 233.53,
-    "y": 179.44,
-    "size": 50.4,
-    "depth": 0.529,
-    "selfAngle": 1.083,
-    "spinSpeed": 1.084
+    "x": 260.46,
+    "y": 330.68,
+    "size": 17.9,
+    "depth": 0.068,
+    "selfAngle": 0.02,
+    "spinSpeed": -1.478
   },
   {
-    "x": 364.99,
-    "y": 100.88,
-    "size": 41.9,
-    "depth": 0.665,
-    "selfAngle": 3.257,
-    "spinSpeed": 1.133
+    "x": 270.59,
+    "y": 286.81,
+    "size": 17.3,
+    "depth": 0.117,
+    "selfAngle": 3.927,
+    "spinSpeed": 0.822
   },
   {
-    "x": 440.07,
-    "y": 141.68,
-    "size": 46.1,
-    "depth": 0.554,
-    "selfAngle": 1.561,
-    "spinSpeed": 0.966
+    "x": 286.92,
+    "y": 268.04,
+    "size": 25.3,
+    "depth": 0.124,
+    "selfAngle": 3.331,
+    "spinSpeed": 1.179
   },
   {
-    "x": 513.75,
-    "y": 148.76,
-    "size": 46.1,
-    "depth": 0.653,
-    "selfAngle": 4.775,
-    "spinSpeed": 1.347
+    "x": 310.15,
+    "y": 282.73,
+    "size": 20.4,
+    "depth": 0.026,
+    "selfAngle": 6.188,
+    "spinSpeed": -0.892
   },
   {
-    "x": 536.69,
-    "y": 157.23,
-    "size": 45.1,
-    "depth": 0.679,
-    "selfAngle": 3.218,
-    "spinSpeed": 1.216
+    "x": 305.59,
+    "y": 253.57,
+    "size": 16.9,
+    "depth": 0.131,
+    "selfAngle": 4.596,
+    "spinSpeed": 1.482
   },
   {
-    "x": 585.51,
-    "y": 217.65,
-    "size": 44.6,
-    "depth": 0.659,
-    "selfAngle": 5.916,
-    "spinSpeed": 1.22
+    "x": 348.35,
+    "y": 266.21,
+    "size": 23.9,
+    "depth": 0.029,
+    "selfAngle": 5.946,
+    "spinSpeed": 0.912
   },
   {
-    "x": 657.76,
-    "y": 349.67,
-    "size": 40.7,
-    "depth": 0.759,
-    "selfAngle": 3.516,
-    "spinSpeed": 1.366
+    "x": 384.91,
+    "y": 247.99,
+    "size": 18.5,
+    "depth": 0.098,
+    "selfAngle": 3.387,
+    "spinSpeed": 1.27
   },
   {
-    "x": 668.21,
-    "y": 429.34,
-    "size": 46.4,
-    "depth": 0.821,
-    "selfAngle": 2.778,
-    "spinSpeed": -0.844
+    "x": 388.05,
+    "y": 233.38,
+    "size": 20.5,
+    "depth": 0.155,
+    "selfAngle": 5.65,
+    "spinSpeed": -0.797
   },
   {
-    "x": 665.39,
-    "y": 425.49,
-    "size": 57.4,
-    "depth": 0.808,
-    "selfAngle": 4.926,
-    "spinSpeed": -1.338
+    "x": 399.19,
+    "y": 256.33,
+    "size": 23.1,
+    "depth": 0.078,
+    "selfAngle": 1.445,
+    "spinSpeed": 0.706
   },
   {
-    "x": 666.36,
-    "y": 527.0,
-    "size": 57.2,
-    "depth": 0.941,
-    "selfAngle": 0.898,
-    "spinSpeed": -1.33
+    "x": 428.4,
+    "y": 289.94,
+    "size": 16.8,
+    "depth": 0.014,
+    "selfAngle": 0.197,
+    "spinSpeed": -0.757
   },
   {
-    "x": 442.15,
-    "y": 669.94,
-    "size": 63.1,
-    "depth": 0.838,
-    "selfAngle": 2.502,
-    "spinSpeed": -1.092
+    "x": 452.08,
+    "y": 262.01,
+    "size": 18.6,
+    "depth": 0.154,
+    "selfAngle": 0.831,
+    "spinSpeed": -0.894
   },
   {
-    "x": 325.85,
-    "y": 710.36,
-    "size": 47.2,
-    "depth": 0.965,
-    "selfAngle": 2.711,
-    "spinSpeed": -1.109
+    "x": 465.61,
+    "y": 299.62,
+    "size": 17.1,
+    "depth": 0.094,
+    "selfAngle": 4.138,
+    "spinSpeed": -1.039
   },
   {
-    "x": 342.82,
-    "y": 676.86,
-    "size": 50.4,
-    "depth": 0.833,
-    "selfAngle": 4.537,
+    "x": 494.51,
+    "y": 312.26,
+    "size": 24.1,
+    "depth": 0.168,
+    "selfAngle": 6.181,
+    "spinSpeed": 0.748
+  },
+  {
+    "x": 509.29,
+    "y": 352.04,
+    "size": 17.3,
+    "depth": 0.185,
+    "selfAngle": 1.203,
     "spinSpeed": -0.812
   },
   {
-    "x": 195.91,
-    "y": 642.42,
-    "size": 44.4,
-    "depth": 0.884,
-    "selfAngle": 2.083,
-    "spinSpeed": -1.174
+    "x": 555.59,
+    "y": 343.04,
+    "size": 41.7,
+    "depth": 0.366,
+    "selfAngle": 0.473,
+    "spinSpeed": 0.74
   },
   {
-    "x": 133.09,
-    "y": 560.43,
-    "size": 63.7,
-    "depth": 0.806,
-    "selfAngle": 4.953,
-    "spinSpeed": -1.383
+    "x": 567.88,
+    "y": 441.9,
+    "size": 43.4,
+    "depth": 0.459,
+    "selfAngle": 5.818,
+    "spinSpeed": 0.833
   },
   {
-    "x": 104.96,
-    "y": 541.08,
-    "size": 44.8,
-    "depth": 0.848,
-    "selfAngle": 4.895,
-    "spinSpeed": -0.962
+    "x": 532.73,
+    "y": 419.83,
+    "size": 33.2,
+    "depth": 0.303,
+    "selfAngle": 0.368,
+    "spinSpeed": -0.702
   },
   {
-    "x": 51.77,
-    "y": 438.29,
-    "size": 62.2,
-    "depth": 0.88,
-    "selfAngle": 5.146,
-    "spinSpeed": -0.955
+    "x": 567.45,
+    "y": 458.33,
+    "size": 40.1,
+    "depth": 0.482,
+    "selfAngle": 1.791,
+    "spinSpeed": -0.824
   },
   {
-    "x": 19.85,
-    "y": 318.58,
-    "size": 55.4,
-    "depth": 0.983,
-    "selfAngle": 4.401,
-    "spinSpeed": -0.854
+    "x": 557.47,
+    "y": 483.01,
+    "size": 36.4,
+    "depth": 0.492,
+    "selfAngle": 3.405,
+    "spinSpeed": -0.746
   },
   {
-    "x": 60.32,
-    "y": 225.39,
-    "size": 52.5,
-    "depth": 0.935,
-    "selfAngle": 0.455,
-    "spinSpeed": -1.363
+    "x": 498.63,
+    "y": 507.8,
+    "size": 41.3,
+    "depth": 0.376,
+    "selfAngle": 0.989,
+    "spinSpeed": 1.381
   },
   {
-    "x": 219.57,
-    "y": 56.16,
-    "size": 45.7,
-    "depth": 0.959,
-    "selfAngle": 5.38,
-    "spinSpeed": -0.84
+    "x": 485.09,
+    "y": 481.48,
+    "size": 41.5,
+    "depth": 0.267,
+    "selfAngle": 2.536,
+    "spinSpeed": 1.163
   },
   {
-    "x": 381.05,
-    "y": 42.38,
-    "size": 50.8,
-    "depth": 0.887,
-    "selfAngle": 3.475,
-    "spinSpeed": -1.356
+    "x": 467.8,
+    "y": 498.12,
+    "size": 37.8,
+    "depth": 0.27,
+    "selfAngle": 3.55,
+    "spinSpeed": -1.448
   },
   {
-    "x": 377.86,
-    "y": 60.12,
-    "size": 54.5,
-    "depth": 0.819,
-    "selfAngle": 1.498,
-    "spinSpeed": -0.866
+    "x": 453.61,
+    "y": 554.58,
+    "size": 30.3,
+    "depth": 0.429,
+    "selfAngle": 2.486,
+    "spinSpeed": -1.066
   },
   {
-    "x": 462.42,
-    "y": 79.68,
-    "size": 48.0,
-    "depth": 0.803,
-    "selfAngle": 1.96,
-    "spinSpeed": -0.983
+    "x": 363.83,
+    "y": 587.84,
+    "size": 26.2,
+    "depth": 0.484,
+    "selfAngle": 3.901,
+    "spinSpeed": 0.759
   },
   {
-    "x": 637.64,
-    "y": 203.94,
-    "size": 54.0,
-    "depth": 0.853,
-    "selfAngle": 1.118,
-    "spinSpeed": -1.008
+    "x": 387.33,
+    "y": 543.11,
+    "size": 42.8,
+    "depth": 0.316,
+    "selfAngle": 5.532,
+    "spinSpeed": 0.996
   },
   {
-    "x": 619.06,
-    "y": 180.12,
-    "size": 44.3,
-    "depth": 0.844,
-    "selfAngle": 4.606,
+    "x": 362.72,
+    "y": 581.19,
+    "size": 38.7,
+    "depth": 0.458,
+    "selfAngle": 3.841,
+    "spinSpeed": 1.234
+  },
+  {
+    "x": 294.32,
+    "y": 575.27,
+    "size": 27.9,
+    "depth": 0.483,
+    "selfAngle": 5.515,
+    "spinSpeed": -0.792
+  },
+  {
+    "x": 306.5,
+    "y": 553.42,
+    "size": 30.9,
+    "depth": 0.388,
+    "selfAngle": 3.798,
+    "spinSpeed": -0.863
+  },
+  {
+    "x": 255.37,
+    "y": 504.57,
+    "size": 34.8,
+    "depth": 0.316,
+    "selfAngle": 5.686,
+    "spinSpeed": 0.774
+  },
+  {
+    "x": 245.09,
+    "y": 496.68,
+    "size": 26.1,
+    "depth": 0.319,
+    "selfAngle": 4.843,
+    "spinSpeed": -0.829
+  },
+  {
+    "x": 203.35,
+    "y": 491.89,
+    "size": 36.1,
+    "depth": 0.426,
+    "selfAngle": 0.703,
+    "spinSpeed": 1.136
+  },
+  {
+    "x": 180.33,
+    "y": 432.54,
+    "size": 28.7,
+    "depth": 0.396,
+    "selfAngle": 0.8,
+    "spinSpeed": -0.992
+  },
+  {
+    "x": 146.06,
+    "y": 398.39,
+    "size": 26.7,
+    "depth": 0.493,
+    "selfAngle": 2.247,
+    "spinSpeed": 1.234
+  },
+  {
+    "x": 175.19,
+    "y": 409.06,
+    "size": 41.7,
+    "depth": 0.39,
+    "selfAngle": 6.116,
+    "spinSpeed": 1.441
+  },
+  {
+    "x": 197.42,
+    "y": 384.97,
+    "size": 40.4,
+    "depth": 0.291,
+    "selfAngle": 1.112,
+    "spinSpeed": -0.72
+  },
+  {
+    "x": 191.17,
+    "y": 321.81,
+    "size": 42.8,
+    "depth": 0.333,
+    "selfAngle": 5.038,
+    "spinSpeed": 0.913
+  },
+  {
+    "x": 215.16,
+    "y": 297.55,
+    "size": 41.7,
+    "depth": 0.277,
+    "selfAngle": 5.392,
+    "spinSpeed": 0.86
+  },
+  {
+    "x": 220.32,
+    "y": 258.12,
+    "size": 40.8,
+    "depth": 0.337,
+    "selfAngle": 5.472,
+    "spinSpeed": 0.719
+  },
+  {
+    "x": 208.39,
+    "y": 279.22,
+    "size": 41.6,
+    "depth": 0.332,
+    "selfAngle": 6.072,
+    "spinSpeed": -0.981
+  },
+  {
+    "x": 223.22,
+    "y": 222.13,
+    "size": 41.2,
+    "depth": 0.42,
+    "selfAngle": 2.08,
+    "spinSpeed": 0.792
+  },
+  {
+    "x": 293.92,
+    "y": 211.79,
+    "size": 43.3,
+    "depth": 0.295,
+    "selfAngle": 1.667,
+    "spinSpeed": 1.177
+  },
+  {
+    "x": 259.77,
+    "y": 185.2,
+    "size": 33.9,
+    "depth": 0.447,
+    "selfAngle": 6.181,
+    "spinSpeed": 1.008
+  },
+  {
+    "x": 317.65,
+    "y": 197.53,
+    "size": 38.8,
+    "depth": 0.314,
+    "selfAngle": 0.011,
+    "spinSpeed": 0.991
+  },
+  {
+    "x": 301.38,
+    "y": 174.77,
+    "size": 31.9,
+    "depth": 0.416,
+    "selfAngle": 1.971,
+    "spinSpeed": 1.276
+  },
+  {
+    "x": 352.67,
+    "y": 187.51,
+    "size": 33.4,
+    "depth": 0.327,
+    "selfAngle": 2.527,
+    "spinSpeed": -1.144
+  },
+  {
+    "x": 373.91,
+    "y": 163.94,
+    "size": 32.8,
+    "depth": 0.416,
+    "selfAngle": 4.698,
+    "spinSpeed": 1.192
+  },
+  {
+    "x": 412.5,
+    "y": 176.78,
+    "size": 26.0,
+    "depth": 0.387,
+    "selfAngle": 1.802,
+    "spinSpeed": -1.329
+  },
+  {
+    "x": 455.99,
+    "y": 209.47,
+    "size": 34.0,
+    "depth": 0.331,
+    "selfAngle": 4.243,
+    "spinSpeed": -1.335
+  },
+  {
+    "x": 517.9,
+    "y": 224.08,
+    "size": 37.9,
+    "depth": 0.434,
+    "selfAngle": 1.782,
+    "spinSpeed": -0.775
+  },
+  {
+    "x": 511.24,
+    "y": 267.41,
+    "size": 31.6,
+    "depth": 0.309,
+    "selfAngle": 5.065,
+    "spinSpeed": 0.72
+  },
+  {
+    "x": 509.23,
+    "y": 239.69,
+    "size": 41.3,
+    "depth": 0.369,
+    "selfAngle": 0.457,
+    "spinSpeed": -1.409
+  },
+  {
+    "x": 553.96,
+    "y": 278.82,
+    "size": 32.9,
+    "depth": 0.43,
+    "selfAngle": 2.51,
+    "spinSpeed": 1.225
+  },
+  {
+    "x": 549.08,
+    "y": 264.75,
+    "size": 39.9,
+    "depth": 0.438,
+    "selfAngle": 0.669,
+    "spinSpeed": -0.875
+  },
+  {
+    "x": 572.15,
+    "y": 359.77,
+    "size": 34.4,
+    "depth": 0.424,
+    "selfAngle": 3.501,
+    "spinSpeed": 1.065
+  },
+  {
+    "x": 638.45,
+    "y": 399.92,
+    "size": 53.8,
+    "depth": 0.686,
+    "selfAngle": 3.739,
+    "spinSpeed": -1.19
+  },
+  {
+    "x": 622.9,
+    "y": 427.09,
+    "size": 50.6,
+    "depth": 0.645,
+    "selfAngle": 3.441,
+    "spinSpeed": 1.295
+  },
+  {
+    "x": 604.58,
+    "y": 434.18,
+    "size": 38.9,
+    "depth": 0.584,
+    "selfAngle": 4.005,
+    "spinSpeed": -1.201
+  },
+  {
+    "x": 588.76,
+    "y": 445.03,
+    "size": 39.7,
+    "depth": 0.539,
+    "selfAngle": 1.706,
+    "spinSpeed": -1.414
+  },
+  {
+    "x": 587.59,
+    "y": 461.18,
+    "size": 41.7,
+    "depth": 0.557,
+    "selfAngle": 0.96,
+    "spinSpeed": 0.751
+  },
+  {
+    "x": 573.8,
+    "y": 533.23,
+    "size": 42.3,
+    "depth": 0.655,
+    "selfAngle": 1.299,
+    "spinSpeed": -1.012
+  },
+  {
+    "x": 533.09,
+    "y": 606.62,
+    "size": 34.4,
+    "depth": 0.756,
+    "selfAngle": 5.531,
+    "spinSpeed": -1.082
+  },
+  {
+    "x": 462.81,
+    "y": 597.33,
+    "size": 41.8,
+    "depth": 0.594,
+    "selfAngle": 5.6,
     "spinSpeed": -1.131
   },
   {
-    "x": 579.12,
-    "y": 327.06,
-    "size": 38.4,
-    "depth": 0.475,
-    "selfAngle": 0.668,
-    "spinSpeed": 0.646
+    "x": 459.63,
+    "y": 633.4,
+    "size": 52.0,
+    "depth": 0.719,
+    "selfAngle": 3.066,
+    "spinSpeed": -1.049
   },
   {
-    "x": 582.83,
-    "y": 415.55,
-    "size": 36.0,
-    "depth": 0.495,
-    "selfAngle": 2.47,
-    "spinSpeed": 0.552
+    "x": 481.99,
+    "y": 591.12,
+    "size": 47.6,
+    "depth": 0.603,
+    "selfAngle": 2.539,
+    "spinSpeed": 1.372
   },
   {
-    "x": 648.84,
-    "y": 575.21,
-    "size": 24.2,
-    "depth": 0.982,
-    "selfAngle": 5.229,
-    "spinSpeed": 0.612
+    "x": 359.69,
+    "y": 660.7,
+    "size": 44.7,
+    "depth": 0.764,
+    "selfAngle": 5.696,
+    "spinSpeed": 0.767
   },
   {
-    "x": 494.68,
-    "y": 517.42,
-    "size": 24.3,
-    "depth": 0.405,
-    "selfAngle": 0.342,
-    "spinSpeed": 0.439
+    "x": 375.22,
+    "y": 653.27,
+    "size": 37.6,
+    "depth": 0.736,
+    "selfAngle": 1.634,
+    "spinSpeed": -0.869
   },
   {
-    "x": 568.65,
-    "y": 570.37,
-    "size": 22.1,
-    "depth": 0.741,
-    "selfAngle": 1.026,
-    "spinSpeed": 0.425
+    "x": 346.51,
+    "y": 645.76,
+    "size": 41.6,
+    "depth": 0.71,
+    "selfAngle": 4.723,
+    "spinSpeed": -0.902
   },
   {
-    "x": 385.32,
-    "y": 687.21,
-    "size": 32.1,
-    "depth": 0.871,
-    "selfAngle": 1.771,
-    "spinSpeed": 0.473
+    "x": 339.73,
+    "y": 596.68,
+    "size": 44.8,
+    "depth": 0.524,
+    "selfAngle": 6.279,
+    "spinSpeed": -0.879
   },
   {
-    "x": 393.27,
-    "y": 577.16,
-    "size": 19.8,
-    "depth": 0.459,
-    "selfAngle": 2.801,
-    "spinSpeed": 0.479
+    "x": 293.09,
+    "y": 649.75,
+    "size": 34.8,
+    "depth": 0.759,
+    "selfAngle": 0.195,
+    "spinSpeed": 0.859
   },
   {
-    "x": 188.59,
-    "y": 665.51,
-    "size": 29.1,
-    "depth": 0.973,
-    "selfAngle": 1.536,
-    "spinSpeed": 0.69
+    "x": 278.2,
+    "y": 589.89,
+    "size": 36.5,
+    "depth": 0.557,
+    "selfAngle": 4.204,
+    "spinSpeed": 1.072
   },
   {
-    "x": 293.61,
-    "y": 536.29,
-    "size": 16.0,
-    "depth": 0.357,
-    "selfAngle": 2.398,
-    "spinSpeed": 0.542
+    "x": 220.19,
+    "y": 574.26,
+    "size": 46.1,
+    "depth": 0.611,
+    "selfAngle": 6.052,
+    "spinSpeed": 1.322
   },
   {
-    "x": 265.57,
-    "y": 468.17,
-    "size": 28.1,
-    "depth": 0.201,
-    "selfAngle": 0.031,
-    "spinSpeed": 0.479
+    "x": 201.62,
+    "y": 554.77,
+    "size": 45.6,
+    "depth": 0.597,
+    "selfAngle": 5.833,
+    "spinSpeed": -1.017
   },
   {
-    "x": 226.39,
-    "y": 503.36,
-    "size": 17.0,
-    "depth": 0.4,
-    "selfAngle": 0.141,
-    "spinSpeed": 0.491
+    "x": 159.22,
+    "y": 476.61,
+    "size": 47.8,
+    "depth": 0.538,
+    "selfAngle": 3.939,
+    "spinSpeed": 1.258
   },
   {
-    "x": 143.38,
-    "y": 467.49,
-    "size": 28.7,
-    "depth": 0.586,
-    "selfAngle": 4.716,
-    "spinSpeed": 0.597
+    "x": 127.19,
+    "y": 500.5,
+    "size": 50.1,
+    "depth": 0.69,
+    "selfAngle": 5.0,
+    "spinSpeed": 0.978
   },
   {
-    "x": 46.79,
-    "y": 325.3,
-    "size": 25.3,
-    "depth": 0.879,
-    "selfAngle": 2.049,
-    "spinSpeed": 0.695
+    "x": 125.4,
+    "y": 445.58,
+    "size": 44.1,
+    "depth": 0.612,
+    "selfAngle": 2.143,
+    "spinSpeed": -1.358
   },
   {
-    "x": 85.51,
-    "y": 352.53,
-    "size": 31.4,
-    "depth": 0.724,
-    "selfAngle": 0.275,
-    "spinSpeed": 0.651
+    "x": 87.7,
+    "y": 453.63,
+    "size": 46.7,
+    "depth": 0.759,
+    "selfAngle": 5.204,
+    "spinSpeed": 1.048
   },
   {
-    "x": 181.09,
-    "y": 190.74,
-    "size": 33.6,
-    "depth": 0.627,
-    "selfAngle": 5.103,
-    "spinSpeed": 0.442
+    "x": 75.56,
+    "y": 339.7,
+    "size": 39.4,
+    "depth": 0.761,
+    "selfAngle": 5.075,
+    "spinSpeed": -1.072
   },
   {
-    "x": 211.16,
-    "y": 206.65,
-    "size": 36.0,
-    "depth": 0.504,
-    "selfAngle": 5.056,
-    "spinSpeed": 0.648
+    "x": 108.48,
+    "y": 294.62,
+    "size": 40.4,
+    "depth": 0.667,
+    "selfAngle": 1.542,
+    "spinSpeed": 0.923
   },
   {
-    "x": 218.21,
-    "y": 76.32,
-    "size": 32.4,
-    "depth": 0.893,
-    "selfAngle": 4.356,
-    "spinSpeed": 0.469
+    "x": 98.06,
+    "y": 293.78,
+    "size": 45.4,
+    "depth": 0.707,
+    "selfAngle": 4.196,
+    "spinSpeed": -0.723
   },
   {
-    "x": 302.3,
-    "y": 259.8,
-    "size": 24.7,
-    "depth": 0.133,
-    "selfAngle": 0.659,
-    "spinSpeed": 0.651
+    "x": 163.29,
+    "y": 236.79,
+    "size": 38.2,
+    "depth": 0.565,
+    "selfAngle": 5.01,
+    "spinSpeed": -0.924
   },
   {
-    "x": 376.04,
-    "y": 110.84,
-    "size": 31.0,
-    "depth": 0.628,
-    "selfAngle": 4.277,
-    "spinSpeed": 0.547
+    "x": 131.58,
+    "y": 202.59,
+    "size": 45.1,
+    "depth": 0.739,
+    "selfAngle": 3.244,
+    "spinSpeed": 0.768
   },
   {
-    "x": 356.13,
-    "y": 65.85,
-    "size": 34.0,
-    "depth": 0.798,
-    "selfAngle": 3.16,
-    "spinSpeed": 0.561
+    "x": 185.05,
+    "y": 178.9,
+    "size": 49.2,
+    "depth": 0.641,
+    "selfAngle": 4.337,
+    "spinSpeed": -1.059
   },
   {
-    "x": 429.43,
-    "y": 279.49,
+    "x": 170.8,
+    "y": 213.57,
+    "size": 42.1,
+    "depth": 0.593,
+    "selfAngle": 1.528,
+    "spinSpeed": -1.079
+  },
+  {
+    "x": 230.43,
+    "y": 148.58,
+    "size": 48.9,
+    "depth": 0.626,
+    "selfAngle": 2.077,
+    "spinSpeed": -0.917
+  },
+  {
+    "x": 247.25,
+    "y": 161.57,
+    "size": 37.9,
+    "depth": 0.549,
+    "selfAngle": 0.751,
+    "spinSpeed": 0.853
+  },
+  {
+    "x": 320.17,
+    "y": 123.54,
+    "size": 45.8,
+    "depth": 0.588,
+    "selfAngle": 4.774,
+    "spinSpeed": -1.484
+  },
+  {
+    "x": 364.61,
+    "y": 117.8,
+    "size": 41.2,
+    "depth": 0.593,
+    "selfAngle": 1.898,
+    "spinSpeed": 0.919
+  },
+  {
+    "x": 417.2,
+    "y": 105.84,
+    "size": 47.9,
+    "depth": 0.658,
+    "selfAngle": 0.793,
+    "spinSpeed": -0.782
+  },
+  {
+    "x": 354.05,
+    "y": 118.9,
+    "size": 43.6,
+    "depth": 0.59,
+    "selfAngle": 2.14,
+    "spinSpeed": 0.902
+  },
+  {
+    "x": 466.07,
+    "y": 151.27,
+    "size": 35.3,
+    "depth": 0.548,
+    "selfAngle": 3.088,
+    "spinSpeed": 0.821
+  },
+  {
+    "x": 520.21,
+    "y": 118.8,
+    "size": 35.7,
+    "depth": 0.757,
+    "selfAngle": 1.559,
+    "spinSpeed": -1.185
+  },
+  {
+    "x": 522.31,
+    "y": 177.95,
+    "size": 44.5,
+    "depth": 0.576,
+    "selfAngle": 2.829,
+    "spinSpeed": -0.938
+  },
+  {
+    "x": 542.71,
+    "y": 178.25,
+    "size": 45.4,
+    "depth": 0.626,
+    "selfAngle": 0.378,
+    "spinSpeed": 1.458
+  },
+  {
+    "x": 531.36,
+    "y": 187.05,
+    "size": 47.2,
+    "depth": 0.572,
+    "selfAngle": 0.986,
+    "spinSpeed": 1.142
+  },
+  {
+    "x": 561.84,
+    "y": 200.09,
+    "size": 47.8,
+    "depth": 0.621,
+    "selfAngle": 2.951,
+    "spinSpeed": 0.885
+  },
+  {
+    "x": 626.43,
+    "y": 273.64,
+    "size": 43.1,
+    "depth": 0.695,
+    "selfAngle": 4.317,
+    "spinSpeed": -1.33
+  },
+  {
+    "x": 632.48,
+    "y": 303.33,
+    "size": 52.7,
+    "depth": 0.685,
+    "selfAngle": 2.67,
+    "spinSpeed": 1.218
+  },
+  {
+    "x": 650.71,
+    "y": 372.87,
+    "size": 35.4,
+    "depth": 0.726,
+    "selfAngle": 1.042,
+    "spinSpeed": -1.176
+  },
+  {
+    "x": 714.76,
+    "y": 412.39,
+    "size": 51.7,
+    "depth": 0.983,
+    "selfAngle": 2.943,
+    "spinSpeed": -1.26
+  },
+  {
+    "x": 674.53,
+    "y": 479.84,
+    "size": 52.9,
+    "depth": 0.894,
+    "selfAngle": 0.505,
+    "spinSpeed": 1.412
+  },
+  {
+    "x": 668.1,
+    "y": 509.83,
+    "size": 42.6,
+    "depth": 0.916,
+    "selfAngle": 1.438,
+    "spinSpeed": 1.5
+  },
+  {
+    "x": 628.2,
+    "y": 542.85,
+    "size": 42.9,
+    "depth": 0.845,
+    "selfAngle": 4.749,
+    "spinSpeed": -1.115
+  },
+  {
+    "x": 613.19,
+    "y": 564.08,
+    "size": 63.9,
+    "depth": 0.847,
+    "selfAngle": 2.737,
+    "spinSpeed": -1.475
+  },
+  {
+    "x": 577.26,
+    "y": 611.55,
+    "size": 49.1,
+    "depth": 0.875,
+    "selfAngle": 0.657,
+    "spinSpeed": 0.964
+  },
+  {
+    "x": 503.32,
+    "y": 651.98,
+    "size": 62.8,
+    "depth": 0.849,
+    "selfAngle": 5.109,
+    "spinSpeed": 1.064
+  },
+  {
+    "x": 497.56,
+    "y": 656.78,
+    "size": 63.3,
+    "depth": 0.857,
+    "selfAngle": 2.538,
+    "spinSpeed": 1.226
+  },
+  {
+    "x": 417.66,
+    "y": 685.77,
+    "size": 46.1,
+    "depth": 0.876,
+    "selfAngle": 2.272,
+    "spinSpeed": -1.2
+  },
+  {
+    "x": 334.74,
+    "y": 676.55,
+    "size": 54.1,
+    "depth": 0.832,
+    "selfAngle": 5.826,
+    "spinSpeed": -1.405
+  },
+  {
+    "x": 316.49,
+    "y": 664.36,
+    "size": 55.9,
+    "depth": 0.795,
+    "selfAngle": 5.02,
+    "spinSpeed": 0.949
+  },
+  {
+    "x": 317.41,
+    "y": 685.64,
+    "size": 46.9,
+    "depth": 0.875,
+    "selfAngle": 5.284,
+    "spinSpeed": 1.069
+  },
+  {
+    "x": 241.82,
+    "y": 689.34,
+    "size": 53.0,
+    "depth": 0.964,
+    "selfAngle": 4.5,
+    "spinSpeed": -1.032
+  },
+  {
+    "x": 159.26,
+    "y": 618.21,
+    "size": 52.0,
+    "depth": 0.888,
+    "selfAngle": 0.908,
+    "spinSpeed": 1.437
+  },
+  {
+    "x": 99.44,
+    "y": 590.08,
+    "size": 61.0,
+    "depth": 0.974,
+    "selfAngle": 1.735,
+    "spinSpeed": -0.972
+  },
+  {
+    "x": 78.24,
+    "y": 492.05,
+    "size": 42.1,
+    "depth": 0.845,
+    "selfAngle": 4.56,
+    "spinSpeed": -1.392
+  },
+  {
+    "x": 62.56,
+    "y": 485.29,
+    "size": 49.3,
+    "depth": 0.891,
+    "selfAngle": 4.791,
+    "spinSpeed": -1.064
+  },
+  {
+    "x": 65.99,
+    "y": 442.57,
+    "size": 57.3,
+    "depth": 0.828,
+    "selfAngle": 3.591,
+    "spinSpeed": 1.385
+  },
+  {
+    "x": 49.74,
+    "y": 378.37,
+    "size": 52.4,
+    "depth": 0.856,
+    "selfAngle": 5.736,
+    "spinSpeed": -1.009
+  },
+  {
+    "x": 31.79,
+    "y": 285.0,
+    "size": 63.6,
+    "depth": 0.962,
+    "selfAngle": 3.111,
+    "spinSpeed": 0.801
+  },
+  {
+    "x": 93.28,
+    "y": 204.72,
+    "size": 44.2,
+    "depth": 0.859,
+    "selfAngle": 5.307,
+    "spinSpeed": 1.121
+  },
+  {
+    "x": 69.94,
+    "y": 202.27,
+    "size": 51.0,
+    "depth": 0.941,
+    "selfAngle": 4.112,
+    "spinSpeed": 0.76
+  },
+  {
+    "x": 150.31,
+    "y": 139.04,
+    "size": 55.7,
+    "depth": 0.845,
+    "selfAngle": 2.496,
+    "spinSpeed": 1.381
+  },
+  {
+    "x": 183.4,
+    "y": 72.3,
+    "size": 50.4,
+    "depth": 0.97,
+    "selfAngle": 1.989,
+    "spinSpeed": -1.398
+  },
+  {
+    "x": 169.21,
+    "y": 136.53,
+    "size": 55.9,
+    "depth": 0.803,
+    "selfAngle": 5.783,
+    "spinSpeed": 1.297
+  },
+  {
+    "x": 255.04,
+    "y": 82.9,
+    "size": 55.9,
+    "depth": 0.809,
+    "selfAngle": 5.48,
+    "spinSpeed": -0.833
+  },
+  {
+    "x": 291.04,
+    "y": 75.18,
+    "size": 49.1,
+    "depth": 0.795,
+    "selfAngle": 0.352,
+    "spinSpeed": -1.0
+  },
+  {
+    "x": 320.52,
+    "y": 41.13,
+    "size": 54.5,
+    "depth": 0.901,
+    "selfAngle": 4.977,
+    "spinSpeed": 0.84
+  },
+  {
+    "x": 436.58,
+    "y": 53.62,
+    "size": 57.0,
+    "depth": 0.869,
+    "selfAngle": 3.125,
+    "spinSpeed": 0.886
+  },
+  {
+    "x": 494.97,
+    "y": 67.98,
+    "size": 56.7,
+    "depth": 0.886,
+    "selfAngle": 5.645,
+    "spinSpeed": -1.421
+  },
+  {
+    "x": 539.97,
+    "y": 111.34,
+    "size": 51.7,
+    "depth": 0.822,
+    "selfAngle": 2.17,
+    "spinSpeed": -1.211
+  },
+  {
+    "x": 561.35,
+    "y": 120.69,
+    "size": 60.6,
+    "depth": 0.841,
+    "selfAngle": 1.251,
+    "spinSpeed": -1.383
+  },
+  {
+    "x": 577.56,
+    "y": 124.74,
+    "size": 49.9,
+    "depth": 0.869,
+    "selfAngle": 1.858,
+    "spinSpeed": -0.718
+  },
+  {
+    "x": 664.45,
+    "y": 244.24,
+    "size": 42.2,
+    "depth": 0.872,
+    "selfAngle": 5.433,
+    "spinSpeed": 1.428
+  },
+  {
+    "x": 702.01,
+    "y": 281.15,
+    "size": 61.9,
+    "depth": 0.965,
+    "selfAngle": 4.872,
+    "spinSpeed": 1.186
+  },
+  {
+    "x": 692.95,
+    "y": 289.49,
+    "size": 55.7,
+    "depth": 0.923,
+    "selfAngle": 4.256,
+    "spinSpeed": 1.203
+  },
+  {
+    "x": 583.11,
+    "y": 217.01,
+    "size": 23.9,
+    "depth": 0.646,
+    "selfAngle": 2.768,
+    "spinSpeed": -1.286
+  },
+  {
+    "x": 511.96,
+    "y": 459.18,
+    "size": 37.9,
+    "depth": 0.295,
+    "selfAngle": 1.103,
+    "spinSpeed": 1.329
+  },
+  {
+    "x": 502.71,
+    "y": 233.84,
+    "size": 30.1,
+    "depth": 0.366,
+    "selfAngle": 1.711,
+    "spinSpeed": 0.906
+  },
+  {
+    "x": 466.66,
+    "y": 170.57,
+    "size": 39.8,
+    "depth": 0.482,
+    "selfAngle": 4.688,
+    "spinSpeed": -1.343
+  },
+  {
+    "x": 254.72,
+    "y": 389.69,
+    "size": 38.1,
+    "depth": 0.075,
+    "selfAngle": 1.417,
+    "spinSpeed": -1.474
+  },
+  {
+    "x": 430.97,
+    "y": 188.01,
+    "size": 39.3,
+    "depth": 0.366,
+    "selfAngle": 0.087,
+    "spinSpeed": 1.064
+  },
+  {
+    "x": 241.28,
+    "y": 128.33,
+    "size": 32.7,
+    "depth": 0.672,
+    "selfAngle": 5.165,
+    "spinSpeed": -0.787
+  },
+  {
+    "x": 377.34,
+    "y": 468.02,
+    "size": 42.3,
+    "depth": 0.025,
+    "selfAngle": 3.526,
+    "spinSpeed": 1.218
+  },
+  {
+    "x": 224.8,
+    "y": 204.87,
+    "size": 36.4,
+    "depth": 0.464,
+    "selfAngle": 4.077,
+    "spinSpeed": 0.812
+  },
+  {
+    "x": 531.34,
+    "y": 309.35,
+    "size": 29.8,
+    "depth": 0.304,
+    "selfAngle": 0.61,
+    "spinSpeed": 1.011
+  },
+  {
+    "x": 131.46,
+    "y": 614.74,
+    "size": 36.3,
+    "depth": 0.949,
+    "selfAngle": 3.392,
+    "spinSpeed": 1.408
+  },
+  {
+    "x": 191.68,
+    "y": 109.28,
     "size": 33.7,
-    "depth": 0.066,
-    "selfAngle": 1.585,
-    "spinSpeed": 0.422
+    "depth": 0.834,
+    "selfAngle": 5.897,
+    "spinSpeed": -0.726
   },
   {
-    "x": 537.28,
-    "y": 140.63,
-    "size": 20.9,
-    "depth": 0.729,
-    "selfAngle": 4.648,
-    "spinSpeed": 0.693
+    "x": 222.58,
+    "y": 519.85,
+    "size": 44.4,
+    "depth": 0.443,
+    "selfAngle": 5.372,
+    "spinSpeed": 1.485
   },
   {
-    "x": 532.43,
-    "y": 270.75,
+    "x": 145.57,
+    "y": 610.93,
+    "size": 34.6,
+    "depth": 0.902,
+    "selfAngle": 0.38,
+    "spinSpeed": -0.852
+  },
+  {
+    "x": 594.07,
+    "y": 586.11,
+    "size": 28.6,
+    "depth": 0.848,
+    "selfAngle": 4.162,
+    "spinSpeed": 0.74
+  },
+  {
+    "x": 190.66,
+    "y": 671.77,
+    "size": 39.2,
+    "depth": 0.989,
+    "selfAngle": 1.289,
+    "spinSpeed": 1.169
+  },
+  {
+    "x": 427.08,
+    "y": 223.51,
+    "size": 38.8,
+    "depth": 0.233,
+    "selfAngle": 4.953,
+    "spinSpeed": 0.922
+  },
+  {
+    "x": 717.03,
+    "y": 331.8,
+    "size": 31.3,
+    "depth": 0.988,
+    "selfAngle": 5.015,
+    "spinSpeed": 1.229
+  },
+  {
+    "x": 464.61,
+    "y": 382.98,
+    "size": 39.3,
+    "depth": 0.015,
+    "selfAngle": 1.494,
+    "spinSpeed": -0.713
+  },
+  {
+    "x": 354.7,
+    "y": 494.4,
     "size": 27.5,
-    "depth": 0.383,
-    "selfAngle": 4.296,
-    "spinSpeed": 0.63
+    "depth": 0.127,
+    "selfAngle": 0.714,
+    "spinSpeed": 1.081
   },
   {
-    "x": 622.61,
-    "y": 317.46,
-    "size": 17.9,
-    "depth": 0.643,
-    "selfAngle": 0.926,
-    "spinSpeed": 0.476
+    "x": 407.05,
+    "y": 142.13,
+    "size": 17.5,
+    "depth": 0.513,
+    "selfAngle": 3.164,
+    "spinSpeed": 1.282
+  },
+  {
+    "x": 590.77,
+    "y": 222.58,
+    "size": 23.7,
+    "depth": 0.659,
+    "selfAngle": 4.04,
+    "spinSpeed": 0.749
+  },
+  {
+    "x": 169.36,
+    "y": 393.3,
+    "size": 36.0,
+    "depth": 0.402,
+    "selfAngle": 3.079,
+    "spinSpeed": -0.759
+  },
+  {
+    "x": 588.27,
+    "y": 490.1,
+    "size": 16.1,
+    "depth": 0.608,
+    "selfAngle": 1.727,
+    "spinSpeed": -1.005
+  },
+  {
+    "x": 226.52,
+    "y": 268.42,
+    "size": 30.2,
+    "depth": 0.295,
+    "selfAngle": 2.702,
+    "spinSpeed": 1.382
+  },
+  {
+    "x": 195.06,
+    "y": 127.44,
+    "size": 37.1,
+    "depth": 0.769,
+    "selfAngle": 1.35,
+    "spinSpeed": -1.41
+  },
+  {
+    "x": 101.28,
+    "y": 526.89,
+    "size": 26.8,
+    "depth": 0.827,
+    "selfAngle": 4.582,
+    "spinSpeed": -1.041
+  },
+  {
+    "x": 269.25,
+    "y": 201.44,
+    "size": 18.9,
+    "depth": 0.374,
+    "selfAngle": 5.796,
+    "spinSpeed": 0.773
+  },
+  {
+    "x": 545.22,
+    "y": 472.97,
+    "size": 37.8,
+    "depth": 0.432,
+    "selfAngle": 2.34,
+    "spinSpeed": 1.145
+  },
+  {
+    "x": 160.73,
+    "y": 242.45,
+    "size": 24.5,
+    "depth": 0.562,
+    "selfAngle": 0.768,
+    "spinSpeed": -1.399
+  },
+  {
+    "x": 558.14,
+    "y": 292.94,
+    "size": 43.3,
+    "depth": 0.423,
+    "selfAngle": 0.323,
+    "spinSpeed": -1.18
+  },
+  {
+    "x": 220.84,
+    "y": 563.96,
+    "size": 20.8,
+    "depth": 0.578,
+    "selfAngle": 4.124,
+    "spinSpeed": 1.378
+  },
+  {
+    "x": 226.05,
+    "y": 560.8,
+    "size": 17.7,
+    "depth": 0.556,
+    "selfAngle": 1.749,
+    "spinSpeed": 1.346
+  },
+  {
+    "x": 563.14,
+    "y": 79.09,
+    "size": 40.2,
+    "depth": 0.975,
+    "selfAngle": 3.853,
+    "spinSpeed": 1.187
+  },
+  {
+    "x": 216.37,
+    "y": 136.63,
+    "size": 14.9,
+    "depth": 0.693,
+    "selfAngle": 1.716,
+    "spinSpeed": -1.437
+  },
+  {
+    "x": 282.74,
+    "y": 481.51,
+    "size": 18.6,
+    "depth": 0.181,
+    "selfAngle": 4.128,
+    "spinSpeed": 0.813
+  },
+  {
+    "x": 298.06,
+    "y": 290.59,
+    "size": 37.9,
+    "depth": 0.031,
+    "selfAngle": 1.351,
+    "spinSpeed": -1.063
+  },
+  {
+    "x": 463.77,
+    "y": 514.11,
+    "size": 24.4,
+    "depth": 0.312,
+    "selfAngle": 5.912,
+    "spinSpeed": 1.407
+  },
+  {
+    "x": 529.81,
+    "y": 608.44,
+    "size": 15.6,
+    "depth": 0.754,
+    "selfAngle": 0.512,
+    "spinSpeed": -1.23
+  },
+  {
+    "x": 157.96,
+    "y": 385.93,
+    "size": 22.7,
+    "depth": 0.442,
+    "selfAngle": 4.741,
+    "spinSpeed": 0.976
+  },
+  {
+    "x": 575.14,
+    "y": 541.16,
+    "size": 33.0,
+    "depth": 0.678,
+    "selfAngle": 3.309,
+    "spinSpeed": -0.736
+  },
+  {
+    "x": 168.6,
+    "y": 520.44,
+    "size": 14.2,
+    "depth": 0.599,
+    "selfAngle": 1.893,
+    "spinSpeed": 1.314
+  },
+  {
+    "x": 382.17,
+    "y": 197.46,
+    "size": 17.8,
+    "depth": 0.289,
+    "selfAngle": 3.124,
+    "spinSpeed": -0.841
+  },
+  {
+    "x": 164.17,
+    "y": 557.05,
+    "size": 30.0,
+    "depth": 0.704,
+    "selfAngle": 5.233,
+    "spinSpeed": -0.758
+  },
+  {
+    "x": 435.51,
+    "y": 286.12,
+    "size": 14.6,
+    "depth": 0.042,
+    "selfAngle": 5.785,
+    "spinSpeed": -1.161
+  },
+  {
+    "x": 116.77,
+    "y": 242.67,
+    "size": 27.4,
+    "depth": 0.709,
+    "selfAngle": 0.723,
+    "spinSpeed": 1.473
+  },
+  {
+    "x": 527.97,
+    "y": 668.11,
+    "size": 28.7,
+    "depth": 0.948,
+    "selfAngle": 4.331,
+    "spinSpeed": -0.771
+  },
+  {
+    "x": 455.57,
+    "y": 235.86,
+    "size": 32.8,
+    "depth": 0.243,
+    "selfAngle": 3.29,
+    "spinSpeed": -1.396
   }
 ]

@@ -4,61 +4,55 @@ const fragmentShaderSource = `
   varying float v_angle;
   varying float v_depth;
 
-  // Check if point p is inside the 5-pointed star polygon
-  // Star defined by 5 outer vertices at radius R and 5 inner at radius r
-  // Uses cross-product sign test against each of the 10 edges
-  float starAlpha(vec2 p) {
-    const float PI2 = 6.28318530;
-    const float R = 0.46;   // outer radius
-    const float r = 0.19;   // inner radius
-    const int N = 5;
+  // Inigo Quilez exact sdPentagram — GLSL ES 1.00 compatible
+  // No loops, no arrays — pure reflection symmetry
+  float sdPentagram(vec2 p, float r) {
+    // Precomputed constants for a regular pentagram
+    const float k1x =  0.809016994; // cos(PI/5)
+    const float k1y =  0.587785252; // sin(PI/5)
+    const float k2x = -0.309016994; // -sin(PI/10)
+    const float k2y =  0.951056516; //  cos(PI/10)
+    const float k3x =  0.726542528; //  tan(PI/5) — inner ratio
 
-    // Rotate p by v_angle (self-rotation per star)
+    vec2 k1 = vec2(k1x, -k1y);
+    vec2 k2 = vec2(k2x,  k2y);
+
+    p.x = abs(p.x);
+
+    // Three reflection folds to collapse to canonical sector
+    p -= 2.0 * min(dot(k1, p), 0.0) * k1;
+    p -= 2.0 * min(dot(k2, p), 0.0) * k2;
+
+    p.x = abs(p.x);
+    p.y -= r;
+
+    vec2 k3 = vec2(k3x, -k1y);
+    p -= k3 * clamp(dot(p, k3), 0.0, r * k1x / k1y);
+
+    return length(p) * sign(p.y);
+  }
+
+  void main() {
+    // Map gl_PointCoord [0,1] to centered [-1,1] space
+    vec2 p = (gl_PointCoord - 0.5) * 2.0;
+
+    // Apply per-star self-rotation BEFORE the SDF
     float ca = cos(v_angle);
     float sa = sin(v_angle);
     p = vec2(p.x * ca - p.y * sa, p.x * sa + p.y * ca);
 
-    // Discard outside bounding circle fast path
-    if (length(p) > R + 0.02) return 0.0;
+    // Evaluate pentagram SDF — outer radius 0.85 gives full tile coverage
+    float dist = sdPentagram(p, 0.85);
 
-    // Build the 10 vertices of the star (alternating outer/inner)
-    // and do a winding-number / cross-product inside test
-    // offset by -PI/2 so first point faces up
-    float offset = -PI2 * 0.25;
+    // Crisp fill with 1px anti-alias
+    float shape = smoothstep(0.04, -0.04, dist);
+    if (shape < 0.01) discard;
 
-    bool inside = true;
-    for (int i = 0; i < 10; i++) {
-      float a0 = offset + float(i)     * PI2 / 10.0;
-      float a1 = offset + float(i + 1) * PI2 / 10.0;
-      float rad0 = (mod(float(i), 2.0) < 1.0) ? R : r;
-      float rad1 = (mod(float(i + 1), 2.0) < 1.0) ? R : r;
-      vec2 v0 = vec2(cos(a0), sin(a0)) * rad0;
-      vec2 v1 = vec2(cos(a1), sin(a1)) * rad1;
-      // Cross product to determine side
-      vec2 edge = v1 - v0;
-      vec2 toP  = p  - v0;
-      if (edge.x * toP.y - edge.y * toP.x < 0.0) {
-        inside = false;
-      }
-    }
+    // Depth-based color: center = light gray, outer = dark gray (matches flyer)
+    float gray  = mix(0.85, 0.32, v_depth);
+    float alpha = mix(0.30, 0.92, v_depth);
 
-    if (!inside) return 0.0;
-
-    // Soft edge: distance to outer boundary for slight anti-alias
-    float d = R - length(p);
-    return smoothstep(0.0, 0.04, d);
-  }
-
-  void main() {
-    vec2 coord = gl_PointCoord - vec2(0.5);
-    float alpha = starAlpha(coord);
-    if (alpha < 0.01) discard;
-
-    // Color: center stars lighter, outer stars darker gray (matches flyer)
-    float gray = mix(0.88, 0.38, v_depth);
-    vec3 color = vec3(gray);
-
-    gl_FragColor = vec4(color, alpha * mix(0.35, 0.85, v_depth));
+    gl_FragColor = vec4(vec3(gray), shape * alpha);
   }
 `
 
