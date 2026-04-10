@@ -8,7 +8,7 @@ import './styles.css'
 
 const SVG_SIZE = 734.08
 
-type Star = { x: number; y: number; size: number; depth: number; selfAngle: number; spinSpeed: number }
+type Star = { x: number; y: number; size: number; depth: number; selfAngle: number; spinSpeed: number; orbitSpeed: number }
 
 function compileShader(gl: WebGLRenderingContext, type: number, source: string): WebGLShader | null {
   const shader = gl.createShader(type)
@@ -65,6 +65,7 @@ export default function HeaderShader() {
     const aSize       = gl.getAttribLocation(program, 'a_size')
     const aSelfAngle  = gl.getAttribLocation(program, 'a_selfAngle')
     const aSpinSpeed  = gl.getAttribLocation(program, 'a_spinSpeed')
+    const aOrbitSpeed = gl.getAttribLocation(program, 'a_orbitSpeed')
     const aDepth      = gl.getAttribLocation(program, 'a_depth')
 
     // Uniform locations
@@ -80,12 +81,14 @@ export default function HeaderShader() {
     const svgSizes      = new Float32Array(stars.map(s => s.size))
     const selfAngles    = new Float32Array(stars.map(s => s.selfAngle))
     const spinSpeeds    = new Float32Array(stars.map(s => s.spinSpeed))
+    const orbitSpeeds   = new Float32Array(stars.map(s => s.orbitSpeed))
     const depths        = new Float32Array(stars.map(s => s.depth))
 
     // Static buffers (never change)
-    const selfAngleBuf = makeBuffer(gl, selfAngles)
-    const spinSpeedBuf = makeBuffer(gl, spinSpeeds)
-    const depthBuf     = makeBuffer(gl, depths)
+    const selfAngleBuf  = makeBuffer(gl, selfAngles)
+    const spinSpeedBuf  = makeBuffer(gl, spinSpeeds)
+    const orbitSpeedBuf = makeBuffer(gl, orbitSpeeds)
+    const depthBuf      = makeBuffer(gl, depths)
 
     // Dynamic buffers (positions/sizes scaled per frame)
     const posBuf  = gl.createBuffer()!
@@ -157,9 +160,10 @@ export default function HeaderShader() {
       gl.vertexAttribPointer(aSize, 1, gl.FLOAT, false, 0, 0)
 
       // Static attributes
-      bindAttr(selfAngleBuf, aSelfAngle, 1)
-      bindAttr(spinSpeedBuf, aSpinSpeed, 1)
-      bindAttr(depthBuf,     aDepth,     1)
+      bindAttr(selfAngleBuf,  aSelfAngle,  1)
+      bindAttr(spinSpeedBuf,  aSpinSpeed,  1)
+      bindAttr(orbitSpeedBuf, aOrbitSpeed, 1)
+      bindAttr(depthBuf,      aDepth,      1)
 
       gl.drawArrays(gl.POINTS, 0, count)
 
@@ -178,6 +182,7 @@ export default function HeaderShader() {
       gl.deleteBuffer(sizeBuf)
       gl.deleteBuffer(selfAngleBuf)
       gl.deleteBuffer(spinSpeedBuf)
+      gl.deleteBuffer(orbitSpeedBuf)
       gl.deleteBuffer(depthBuf)
     }
   }, [])

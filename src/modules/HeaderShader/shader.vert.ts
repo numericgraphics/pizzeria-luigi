@@ -3,6 +3,7 @@ const vertexShaderSource = `
   attribute float a_size;
   attribute float a_selfAngle;
   attribute float a_spinSpeed;
+  attribute float a_orbitSpeed;
   attribute float a_depth;
 
   uniform vec2 u_resolution;
@@ -13,10 +14,12 @@ const vertexShaderSource = `
   varying float v_depth;
 
   void main() {
-    // Orbit: rotate position around the logo center
+    // Each star orbits at its own speed around the logo center
+    float orbit = u_rotation * a_orbitSpeed;
+
     vec2 offset = a_position - u_center;
-    float c = cos(u_rotation);
-    float s = sin(u_rotation);
+    float c = cos(orbit);
+    float s = sin(orbit);
     vec2 rotated = vec2(
       offset.x * c - offset.y * s,
       offset.x * s + offset.y * c
@@ -26,7 +29,7 @@ const vertexShaderSource = `
     gl_Position = vec4(clip * vec2(1.0, -1.0), 0.0, 1.0);
     gl_PointSize = a_size;
 
-    // Self rotation: each star spins at its own speed and direction
+    // Self-rotation: each star spins on its own axis
     v_angle = a_selfAngle + u_rotation * a_spinSpeed;
     v_depth = a_depth;
   }
