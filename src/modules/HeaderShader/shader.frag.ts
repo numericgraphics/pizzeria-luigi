@@ -4,53 +4,47 @@ const fragmentShaderSource = `
   varying float v_angle;
   varying float v_depth;
 
-  // Inigo Quilez exact sdPentagram — GLSL ES 1.00 compatible
-  // No loops, no arrays — pure reflection symmetry
-  float sdPentagram(vec2 p, float r) {
-    // Precomputed constants for a regular pentagram
+  // Inigo Quilez — sdPentagram exact (verbatim from iquilezles.org/articles/distfunctions2d/)
+  float sdPentagram(in vec2 p, in float r) {
     const float k1x =  0.809016994; // cos(PI/5)
     const float k1y =  0.587785252; // sin(PI/5)
-    const float k2x = -0.309016994; // -sin(PI/10)
-    const float k2y =  0.951056516; //  cos(PI/10)
-    const float k3x =  0.726542528; //  tan(PI/5) — inner ratio
+    const float k2x =  0.309016994; // sin(PI/10)
+    const float k2y =  0.951056516; // cos(PI/10)
+    const float k1z =  0.726542528; // tan(PI/5)
 
-    vec2 k1 = vec2(k1x, -k1y);
-    vec2 k2 = vec2(k2x,  k2y);
+    const vec2 v1 = vec2( k1x, -k1y);
+    const vec2 v2 = vec2(-k1x, -k1y);
+    const vec2 v3 = vec2( k2x, -k2y);
 
     p.x = abs(p.x);
-
-    // Three reflection folds to collapse to canonical sector
-    p -= 2.0 * min(dot(k1, p), 0.0) * k1;
-    p -= 2.0 * min(dot(k2, p), 0.0) * k2;
-
+    p -= 2.0 * max(dot(v1, p), 0.0) * v1;
+    p -= 2.0 * max(dot(v2, p), 0.0) * v2;
     p.x = abs(p.x);
     p.y -= r;
 
-    vec2 k3 = vec2(k3x, -k1y);
-    p -= k3 * clamp(dot(p, k3), 0.0, r * k1x / k1y);
-
-    return length(p) * sign(p.y);
+    return length(p - v3 * clamp(dot(p, v3), 0.0, k1z * r))
+         * sign(p.y * v3.x - p.x * v3.y);
   }
 
   void main() {
-    // Map gl_PointCoord [0,1] to centered [-1,1] space
+    // Map gl_PointCoord [0,1] to centered [-1,1]
     vec2 p = (gl_PointCoord - 0.5) * 2.0;
 
-    // Apply per-star self-rotation BEFORE the SDF
+    // Per-star self-rotation applied BEFORE SDF
     float ca = cos(v_angle);
     float sa = sin(v_angle);
     p = vec2(p.x * ca - p.y * sa, p.x * sa + p.y * ca);
 
-    // Evaluate pentagram SDF — outer radius 0.85 gives full tile coverage
-    float dist = sdPentagram(p, 0.85);
+    // Evaluate pentagram SDF
+    float dist = sdPentagram(p, 0.88);
 
-    // Crisp fill with 1px anti-alias
-    float shape = smoothstep(0.04, -0.04, dist);
+    // Crisp fill with slight anti-alias
+    float shape = smoothstep(0.03, -0.03, dist);
     if (shape < 0.01) discard;
 
-    // Depth-based color: center = light gray, outer = dark gray (matches flyer)
+    // Depth shading: center = light gray, outer = dark gray (matches flyer)
     float gray  = mix(0.85, 0.32, v_depth);
-    float alpha = mix(0.30, 0.92, v_depth);
+    float alpha = mix(0.28, 0.92, v_depth);
 
     gl_FragColor = vec4(vec3(gray), shape * alpha);
   }
