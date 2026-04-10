@@ -17,15 +17,20 @@
   position: sticky;
   top: 0;
   z-index: var(--z-header);
+  overflow: hidden;
 }
 
 .header__logo {
+  position: relative;
+  z-index: 1;
   width: var(--logo-size-lg);
   height: auto;
   animation: logoEntrance var(--duration-slower) var(--ease-spring) both;
 }
 
 .header__tagline {
+  position: relative;
+  z-index: 1;
   font-family: var(--font-family-heading);
   font-size: var(--font-size-md);
   color: var(--color-text-muted);
