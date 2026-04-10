@@ -3,35 +3,37 @@ const fragmentShaderSource = `
 
   uniform float u_alpha;
 
-  // Signed distance function for a regular N-pointed star
-  // p: point in [-0.5, 0.5] space
-  // r1: outer radius, r2: inner radius, n: number of points
-  float sdStar(vec2 p, float r1, float r2, float n) {
-    float an = 3.14159265 / n;
-    float en = 3.14159265 / 3.0; // fixed inner angle
-    vec2 acs = vec2(cos(an), sin(an));
-    vec2 ecs = vec2(cos(en), sin(en));
+  // 5-pointed star SDF (Inigo Quilez)
+  // p: coord in [-0.5, 0.5], r: outer radius, rf: inner/outer ratio
+  float sdStar5(vec2 p, float r, float rf) {
+    const float PI = 3.14159265;
+    const float an = PI / 5.0;          // 36 deg — angle between points
+    const float he = 0.7265425947;      // tan(an*2) normalisation factor
 
-    float bn = mod(atan(p.y, p.x), 2.0 * an) - an;
-    p = length(p) * vec2(cos(bn), abs(sin(bn)));
-    p -= r1 * acs;
-    p += ecs * clamp(-dot(p, ecs), 0.0, r1 * acs.y / ecs.y);
+    // Fold into one sector
+    float bn = mod(atan(p.x, p.y), 2.0 * an) - an;
+    p = length(p) * vec2(sin(bn), cos(bn));
+
+    // Distance to the edge segment
+    p -= r * vec2(sin(an), cos(an));
+    float q = p.y + he * p.x;
+    p += vec2(-he, 1.0) * clamp(q / (he * he + 1.0), 0.0, r);
     return length(p) * sign(p.x);
   }
 
   void main() {
     vec2 coord = gl_PointCoord - vec2(0.5);
 
-    // 4-pointed star: n=4, outer=0.48, inner=0.18
-    float d = sdStar(coord, 0.48, 0.18, 4.0);
+    // 5-pointed star: outer radius 0.47, inner/outer ratio 0.4
+    float d = sdStar5(coord, 0.47, 0.4);
 
-    // Sharp crisp edge with very slight anti-alias
-    float shape = 1.0 - smoothstep(-0.01, 0.02, d);
+    // Crisp edge, 1px anti-alias
+    float shape = 1.0 - smoothstep(-0.01, 0.025, d);
 
     if (shape < 0.01) discard;
 
-    // Silver/gray color matching the flyer
-    vec3 color = vec3(0.72, 0.70, 0.66);
+    // Silver/gray — matches the flyer palette
+    vec3 color = vec3(0.70, 0.68, 0.64);
     gl_FragColor = vec4(color, shape * u_alpha);
   }
 `

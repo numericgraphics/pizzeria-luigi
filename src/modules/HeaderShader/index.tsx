@@ -100,7 +100,7 @@ export default function HeaderShader() {
 
     const render = () => {
       const elapsed = (performance.now() - startTime) / 1000
-      const rotation = elapsed * 0.08 // rad/s — slow, elegant
+      const rotation = elapsed * 0.35 // rad/s — visible rotation
 
       gl.clearColor(0, 0, 0, 0)
       gl.clear(gl.COLOR_BUFFER_BIT)
@@ -113,7 +113,7 @@ export default function HeaderShader() {
       // Scale star positions from SVG space to canvas pixel space
       const w = canvas.width
       const h = canvas.height
-      const scale = Math.max(w, h) / SVG_SIZE * 1.1
+      const scale = Math.max(w, h) / SVG_SIZE * 1.4
       const offsetX = (w - SVG_SIZE * scale) / 2
       const offsetY = (h - SVG_SIZE * scale) / 2
 
@@ -124,7 +124,7 @@ export default function HeaderShader() {
         SVG_SIZE / 2 * scale + offsetY
       )
       gl.uniform1f(uRotation, rotation)
-      gl.uniform1f(uAlpha, 0.55)
+      gl.uniform1f(uAlpha, 0.5)
 
       // Upload scaled positions per frame (small array, negligible cost)
       const scaledPositions = new Float32Array(positions.length)
