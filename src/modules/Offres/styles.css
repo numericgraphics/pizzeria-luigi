@@ -1,0 +1,33 @@
+.offres {
+  animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+}
+
+.offre-item {
+  background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-surface-alt) 100%);
+  border: var(--border-width-thick) solid var(--color-gold);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-8) var(--space-10);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.offre-item__title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-gold);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+}
+
+.offre-item__description {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

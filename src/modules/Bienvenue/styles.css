@@ -1,0 +1,20 @@
+.bienvenue {
+  text-align: center;
+  padding: var(--space-12) var(--space-6);
+  animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+}
+
+.bienvenue__text {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-2xl);
+  font-style: italic;
+  color: var(--color-text-primary);
+  line-height: var(--line-height-relaxed);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
