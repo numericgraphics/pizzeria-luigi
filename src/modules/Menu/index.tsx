@@ -1,13 +1,19 @@
-import menu from '@/data/menu.json'
 import './styles.css'
 
-export default function Menu() {
+type Pizza = { name: string; ingredients: string; price: number }
+type Category = { id: string; name: string; pizzas: Pizza[] }
+
+type MenuProps = {
+  categories: Category[]
+}
+
+export default function Menu({ categories }: MenuProps) {
   return (
     <div className="menu">
-      {menu.categories.map((category) => (
+      {categories.map((category) => (
         <section key={category.id} className="category">
           <div className="category__header">
-            <h2 className="category__title">{category.name}</h2>
+            <h3 className="category__title">{category.name}</h3>
             <div className="category__divider" aria-hidden="true" />
           </div>
           <div className="pizza-grid">
@@ -17,7 +23,7 @@ export default function Menu() {
                 className={`pizza-card${pizza.name === 'Luigi' ? ' pizza-card--signature' : ''}`}
               >
                 <div className="pizza-card__header">
-                  <h3 className="pizza-card__name">{pizza.name}</h3>
+                  <h4 className="pizza-card__name">{pizza.name}</h4>
                   <span className="pizza-card__price">{pizza.price} €</span>
                 </div>
                 <p className="pizza-card__ingredients">{pizza.ingredients}</p>
@@ -27,14 +33,6 @@ export default function Menu() {
         </section>
       ))}
 
-      <aside className="menu-notes">
-        <h3 className="menu-notes__title">Informations</h3>
-        <ul className="menu-notes__list">
-          {menu.notes.map((note, i) => (
-            <li key={i} className="menu-notes__item">{note}</li>
-          ))}
-        </ul>
-      </aside>
     </div>
   )
 }

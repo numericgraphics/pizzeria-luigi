@@ -23,10 +23,10 @@ export default function RootLayout({
               src="/logo.svg"
               alt="La Pizz' de Luigi"
               className="header__logo"
-              width={160}
-              height={204}
+              width={200}
+              height={255}
             />
-            <p className="header__tagline">Le Beausset – Var</p>
+            <p className="header__phone">07 61 20 04 69</p>
           </header>
           <main className="main">
             {children}
