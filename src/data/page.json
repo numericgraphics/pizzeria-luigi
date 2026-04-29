@@ -1,6 +1,6 @@
 {
   "bienvenue": {
-    "text": "Louis et Delphine vous accueillent du lundi au samedi de 17h30 à 22h"
+    "text": "Louis et Delphine vous accueillent du lundi au samedi de 17h30 à 21h30"
   },
   "pizzas": {
     "categories": [
@@ -8,36 +8,132 @@
         "id": "tomate",
         "name": "Base Tomate",
         "pizzas": [
-          { "name": "Matt", "ingredients": "Sauce tomate, olives noires, mozzarella, basilic frais", "price": 11 },
-          { "name": "Polo", "ingredients": "Sauce tomate, jambon blanc, olives noires, mozzarella", "price": 13 },
-          { "name": "Napolitaine", "ingredients": "Sauce tomate, anchois, basilic frais, ail, olives noires", "price": 13 },
-          { "name": "Poulette", "ingredients": "Sauce tomate, poulet, olives noires, mozzarella", "price": 13 },
-          { "name": "Reine du sud", "ingredients": "Sauce tomate, jambon blanc, champignons, œuf, olives noires, mozzarella", "price": 14 },
-          { "name": "Cabrone", "ingredients": "Sauce tomate, chorizo, olives noires, mozzarella", "price": 14 },
-          { "name": "Tonton flingueur", "ingredients": "Sauce tomate, thon, oignons rouges, olives noires, mozzarella", "price": 14 },
-          { "name": "Biquette", "ingredients": "Sauce tomate, chiffonnade de jambon cru, chèvre, olives noires, mozzarella", "price": 14 },
-          { "name": "Primeur", "ingredients": "Sauce tomate, fond d'artichauts, aubergines, poivrons, champignons, olives noires, mozzarella", "price": 14 },
-          { "name": "Maya", "ingredients": "Sauce tomate, chèvre, miel, olives noires, mozzarella", "price": 14 },
-          { "name": "Calzone", "ingredients": "Sauce tomate, jambon blanc, champignons, œuf, mozzarella", "price": 15 },
-          { "name": "Orientale", "ingredients": "Sauce tomate, merguez hallal, poivrons, olives noires, mozzarella", "price": 15 },
-          { "name": "Provençale", "ingredients": "Sauce tomate, buche de chèvre, basilic frais, sauce à l'ail, olives noires, mozzarella", "price": 15 },
-          { "name": "Burger", "ingredients": "Sauce tomate, viande hachée, oignon rouge, cheddar, olives noires, mozzarella, sauce burger", "price": 15 },
-          { "name": "Finou", "ingredients": "Sauce tomate, chèvre frais, roquette, tomates cerises, copeau de parmesan, crème balsamique, mozzarella", "price": 15 },
-          { "name": "Mister Yo", "ingredients": "Sauce tomate, conté, chèvre, roquefort, chorizo, olives noires, mozzarella", "price": 16 },
-          { "name": "Luigi", "ingredients": "Sauce tomate, burrata entière (100–120g), copeaux de parmesan, roquette, tomates séchées, olives noires, éclats de truffe, huile de truffe, basilic frais, mozzarella", "price": 19 }
+          {
+            "name": "Matt",
+            "ingredients": "Sauce tomate, olives noires, mozzarella, basilic frais",
+            "price": 11
+          },
+          {
+            "name": "Polo",
+            "ingredients": "Sauce tomate, jambon blanc, olives noires, mozzarella",
+            "price": 13
+          },
+          {
+            "name": "Napolitaine",
+            "ingredients": "Sauce tomate, anchois, basilic frais, ail, olives noires",
+            "price": 13
+          },
+          {
+            "name": "Poulette",
+            "ingredients": "Sauce tomate, poulet, olives noires, mozzarella",
+            "price": 13
+          },
+          {
+            "name": "Reine du sud",
+            "ingredients": "Sauce tomate, jambon blanc, champignons, œuf, olives noires, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Cabrone",
+            "ingredients": "Sauce tomate, chorizo, olives noires, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Tonton flingueur",
+            "ingredients": "Sauce tomate, thon, oignons rouges, olives noires, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Biquette",
+            "ingredients": "Sauce tomate, chiffonnade de jambon cru, chèvre, olives noires, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Primeur",
+            "ingredients": "Sauce tomate, fond d'artichauts, aubergines, poivrons, champignons, olives noires, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Maya",
+            "ingredients": "Sauce tomate, chèvre, miel, olives noires, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Calzone",
+            "ingredients": "Sauce tomate, jambon blanc, champignons, œuf, mozzarella",
+            "price": 15
+          },
+          {
+            "name": "Orientale",
+            "ingredients": "Sauce tomate, merguez hallal, poivrons, olives noires, mozzarella",
+            "price": 15
+          },
+          {
+            "name": "Provençale",
+            "ingredients": "Sauce tomate, buche de chèvre, basilic frais, sauce à l'ail, olives noires, mozzarella",
+            "price": 15
+          },
+          {
+            "name": "Burger",
+            "ingredients": "Sauce tomate, viande hachée, oignon rouge, cheddar, olives noires, mozzarella, sauce burger",
+            "price": 15
+          },
+          {
+            "name": "Finou",
+            "ingredients": "Sauce tomate, chèvre frais, roquette, tomates cerises, copeau de parmesan, crème balsamique, mozzarella",
+            "price": 15
+          },
+          {
+            "name": "Mister Yo",
+            "ingredients": "Sauce tomate, conté, chèvre, roquefort, chorizo, olives noires, mozzarella",
+            "price": 16
+          },
+          {
+            "name": "Luigi",
+            "ingredients": "Sauce tomate, burrata entière (100–120g), copeaux de parmesan, roquette, tomates séchées, olives noires, éclats de truffe, huile de truffe, basilic frais, mozzarella",
+            "price": 19
+          }
         ]
       },
       {
         "id": "creme",
         "name": "Base Crème",
         "pizzas": [
-          { "name": "Raymonde", "ingredients": "Base crème, reblochon, oignons rouges, olives noires, basilic frais, mozzarella", "price": 14 },
-          { "name": "Paysanne", "ingredients": "Base crème, lardons, oignons, champignon, olives noires, mozzarella", "price": 14 },
-          { "name": "Riri", "ingredients": "Base crème, chèvre, reblochon, conté, olives noires, mozzarella", "price": 15 },
-          { "name": "Manon", "ingredients": "Base crème, raclette, chiffonnade de jambon cru, olives noires, mozzarella", "price": 15 },
-          { "name": "Buffalo Bill", "ingredients": "Base crème, pesto, ricotta, bresaola, roquette, copeau de parmesan, olives noires, mozzarella", "price": 16 },
-          { "name": "Tartiflette", "ingredients": "Base crème, lardons, reblochon, pommes de terres, olives noires, mozzarella", "price": 16 },
-          { "name": "Cot Cot Cot", "ingredients": "Base crème, poulet, pomme de terre, conté, cancoillotte, olives noires, mozzarella", "price": 17 }
+          {
+            "name": "Raymonde",
+            "ingredients": "Base crème, reblochon, oignons rouges, olives noires, basilic frais, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Paysanne",
+            "ingredients": "Base crème, lardons, oignons, champignon, olives noires, mozzarella",
+            "price": 14
+          },
+          {
+            "name": "Riri",
+            "ingredients": "Base crème, chèvre, reblochon, conté, olives noires, mozzarella",
+            "price": 15
+          },
+          {
+            "name": "Manon",
+            "ingredients": "Base crème, raclette, chiffonnade de jambon cru, olives noires, mozzarella",
+            "price": 15
+          },
+          {
+            "name": "Buffalo Bill",
+            "ingredients": "Base crème, pesto, ricotta, bresaola, roquette, copeau de parmesan, olives noires, mozzarella",
+            "price": 16
+          },
+          {
+            "name": "Tartiflette",
+            "ingredients": "Base crème, lardons, reblochon, pommes de terres, olives noires, mozzarella",
+            "price": 16
+          },
+          {
+            "name": "Cot Cot Cot",
+            "ingredients": "Base crème, poulet, pomme de terre, conté, cancoillotte, olives noires, mozzarella",
+            "price": 17
+          }
         ]
       }
     ],
