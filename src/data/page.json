@@ -1,6 +1,6 @@
 {
   "bienvenue": {
-    "text": "Louis et Delphine vous accueillent du mardi au dimanche de 17h30 à 21h30"
+    "text": "Louis et Delphine vous accueillent du mardi au dimanche de 18h à 22h"
   },
   "pizzas": {
     "categories": [
@@ -133,6 +133,17 @@
             "name": "Cot Cot Cot",
             "ingredients": "Base crème, poulet, pomme de terre, conté, cancoillotte, olives noires, mozzarella",
             "price": 17
+          }
+        ]
+      },
+      {
+        "id": "sucre",
+        "name": "Pizza sucrée",
+        "pizzas": [
+          {
+            "name": "Nute",
+            "ingredients": "Nutella, banane, M&m's",
+            "price": 11
           }
         ]
       }
